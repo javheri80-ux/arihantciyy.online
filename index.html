@@ -349,27 +349,42 @@
                 if (e.key === 'ArrowRight') navigate(1);
             });
 
-            // 4. AJAX Form Submission
+            // 4. AJAX Form Submission → Google Sheets
+            // ⚠️ Step 1: REPLACE with your Google Apps Script Web App URL (same URL for ALL projects)
+            const GOOGLE_SCRIPT_URL = "PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE";
+
+            // ⚠️ Step 2: CHANGE this for each cloned project — yahi naam Google Sheet mein dikhega
+            const PROJECT_NAME = "Delta Greenville – Thane West";
+
             const handleFormSubmit = (e) => {
                 e.preventDefault();
                 const form = e.target;
                 const submitBtn = form.querySelector('button[type="submit"]');
                 const originalBtnText = submitBtn.innerText;
-                
+
                 // Show loading state
                 submitBtn.disabled = true;
                 submitBtn.innerText = "Sending...";
 
-                const formData = new FormData(form);
+                // Build JSON payload from form fields
+                const payload = {
+                    project_name: PROJECT_NAME,
+                    name:   form.querySelector('[name="name"]')   ? form.querySelector('[name="name"]').value   : "",
+                    phone:  form.querySelector('[name="phone"]')  ? form.querySelector('[name="phone"]').value  : "",
+                    email:  form.querySelector('[name="email"]')  ? form.querySelector('[name="email"]').value  : "",
+                    config: form.querySelector('[name="config"]') ? form.querySelector('[name="config"]').value : "",
+                    source: window.location.hostname
+                };
 
-                fetch('contact.php', {
+                fetch(GOOGLE_SCRIPT_URL, {
                     method: 'POST',
-                    body: formData
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
                 })
                 .then(response => response.json())
                 .then(data => {
                     if (data.status === 'success') {
-                        alert("Thank you! Your enquiry has been received.");
+                        alert("✅ Thank you! Your enquiry has been received. We will contact you shortly.");
                         form.reset();
                         // Close popup if it was a popup form
                         const popup = document.getElementById('auto-popup');
