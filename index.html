@@ -348,6 +348,50 @@
                 if (e.key === 'ArrowLeft') navigate(-1);
                 if (e.key === 'ArrowRight') navigate(1);
             });
+
+            // 4. AJAX Form Submission
+            const handleFormSubmit = (e) => {
+                e.preventDefault();
+                const form = e.target;
+                const submitBtn = form.querySelector('button[type="submit"]');
+                const originalBtnText = submitBtn.innerText;
+                
+                // Show loading state
+                submitBtn.disabled = true;
+                submitBtn.innerText = "Sending...";
+
+                const formData = new FormData(form);
+
+                fetch('contact.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        alert("Thank you! Your enquiry has been received.");
+                        form.reset();
+                        // Close popup if it was a popup form
+                        const popup = document.getElementById('auto-popup');
+                        if (popup) popup.classList.remove('show');
+                    } else {
+                        alert("Something went wrong. Please try again.");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert("Submission failed. Please check your connection.");
+                })
+                .finally(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.innerText = originalBtnText;
+                });
+            };
+
+            const forms = document.querySelectorAll('form');
+            forms.forEach(form => {
+                form.addEventListener('submit', handleFormSubmit);
+            });
         });
     </script>
 </head>
