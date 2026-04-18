@@ -242,10 +242,11 @@
                     document.getElementById('why_desc').innerHTML = data.why_desc.replace(/\n/g, '<br>');
 
                     // Dynamic Phone Links
+                    let cleanPhone = data.phone_no.replace(/\s+/g, '');
                     let phoneLinks = document.querySelectorAll('.dynamic-call');
-                    phoneLinks.forEach(link => { link.href = "tel:+91" + data.phone_no; });
+                    phoneLinks.forEach(link => { link.href = "tel:+91" + cleanPhone; });
                     let waLinks = document.querySelectorAll('.dynamic-wa');
-                    waLinks.forEach(link => { link.href = "https://wa.me/91" + data.phone_no; });
+                    waLinks.forEach(link => { link.href = "https://wa.me/91" + cleanPhone; });
                 })
                 .catch(err => console.error("Error loading JSON data:", err));
 
