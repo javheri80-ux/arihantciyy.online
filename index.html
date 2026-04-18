@@ -192,8 +192,8 @@
                 document.getElementById('nav-links').classList.toggle('active');
             });
 
-            // 2. Fetch Data & Populate
-            fetch('data.json')
+            // 2. Fetch Data & Populate with Cache Buster
+            fetch('data.json?v=' + Date.now())
                 .then(res => res.json())
                 .then(data => {
                     // Images
