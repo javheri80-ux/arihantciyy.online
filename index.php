@@ -1496,7 +1496,7 @@ function get_val($key, $fallback = '') {
                     </svg>
                     Enquire
                 </a>
-                <a href="#" target="_blank" class="btn-whatsapp dynamic-wa">
+                <a href="https://wa.me/91<?=str_replace(' ', '', get_val('phone_no', '8237498373'))?>?text=I'm interested in Siyara Vista Kalyan. Please send details." target="_blank" class="btn-whatsapp dynamic-wa">
                     <svg viewBox="0 0 24 24">
                         <path
                             d="M12.031 21c-1.566 0-3.088-.42-4.425-1.217L2 21.056l1.32-5.466A9.957 9.957 0 012.046 11c0-5.514 4.486-10 10-10s10 4.486 10 10-4.485 10-9.985 10h-.03zM7.55 18.06c1.334.79 2.87 1.21 4.45 1.21 4.565 0 8.28-3.715 8.28-8.28S16.565 2.71 12 2.71c-4.566 0-8.28 3.715-8.28 8.28 0 1.636.452 3.22 1.306 4.606l-.688 2.846 2.912-.693zm8.796-3.805c-.477-.24-2.825-1.395-3.264-1.554-.44-.16-.76-.24-1.14.32-.38.56-1.236 1.554-1.515 1.873-.28.32-.56.36-1.038.12-.477-.24-2.02-.746-3.847-2.38-.142-.127-.58-.564-.81-1.018-.23-.454-.025-.7.214-.94.215-.216.477-.56.716-.84.24-.28.32-.477.478-.8.16-.32.08-.6-.04-.84-.12-.24-1.14-2.753-1.56-3.77-.412-.99-.83-.858-1.14-.874-.28-.013-.6-.016-.92-.016-.32 0-.84.12-1.278.6-.44.48-1.677 1.638-1.677 3.993 0 2.356 1.717 4.634 1.956 4.954.24.32 3.376 5.156 8.18 7.23 1.14.492 2.032.785 2.727 1.006 1.145.365 2.188.313 3.01.19 1.18-.178 3.633-1.485 4.143-2.92.51-1.436.51-2.666.358-2.92-.15-.256-.55-.416-1.028-.656z" />
@@ -1519,8 +1519,10 @@ function get_val($key, $fallback = '') {
     <script>
         // Use PHP to inject dynamic values where needed for JS (like phone links)
         const currentPhone = "<?=get_val('phone_no', '8237498373')?>";
-        document.querySelectorAll('.dynamic-call').forEach(el => el.href = 'tel:+91' + currentPhone.replace(/\s/g, ''));
+        const cleanPhone = currentPhone.replace(/\s/g, '');
+        document.querySelectorAll('.dynamic-call').forEach(el => el.href = 'tel:+91' + cleanPhone);
         document.querySelectorAll('.contact-number').forEach(el => el.textContent = '+91 ' + currentPhone);
+        document.querySelectorAll('.dynamic-wa').forEach(el => el.href = 'https://wa.me/91' + cleanPhone + '?text=I\'m interested in Siyara Vista Kalyan. Please send details.');
     </script>
 </body>
 
