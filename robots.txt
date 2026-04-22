@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin.php
+Disallow: /data.json
 
-Sitemap: https://www.deltathane.online/sitemap.xml
+Sitemap: https://siyaravistakalyan.site/sitemap.xml
