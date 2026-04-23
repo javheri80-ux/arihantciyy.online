@@ -16,116 +16,33 @@ function get_val($key, $fallback = '') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siyara Vista Kalyan | High-Rise Living by Shakti Group</title>
+    <title>Arihant City Kalyan Bhiwandi | 1, 2, 3 & 4 BHK Flats in Thane Project</title>
 
     <!-- ================= UPDATED SEO META TAGS ================= -->
     <link rel="icon" href="images/favicon.jpg" type="image/jpg" sizes="16x16">
-    <meta name="google-site-verification" content="JSmmjfaE-agjL9jIe52uMktFUjgC0PRirgTukBejZrU" />
     <meta name="description"
-        content="Discover Siyara Vista Kalyan by Shakti Group at Prem Auto Junction. Luxury 2 & 3 BHK homes with modern amenities and high-rise living in Kalyan West." />
+        content="Discover Arihant City Kalyan Bhiwandi. Premium 1, 2, 3 & 4 BHK flats in Thane project with modern amenities, excellent connectivity, and high-rise living." />
     <meta name="keywords"
-        content="Siyara Vista Kalyan, Siyara Vista, Shakti Group, Kalyan West real estate, 2 BHK in Kalyan West, 3 BHK in Kalyan West, Prem Auto Junction Kalyan" />
-    <meta name="author" content="Siyara Vista Kalyan Authorized Partner" />
+        content="Arihant City Kalyan Bhiwandi, 1 BHK in Bhiwandi, 2 BHK in Bhiwandi, 3 BHK in Bhiwandi, 4 BHK flats in Thane project, Arihant Group Bhiwandi" />
+    <meta name="author" content="Arihant City Authorized Partner" />
     <meta property="og:locale" content="en_IN" />
-    <meta property="og:site_name" content="Siyara Vista Kalyan" />
+    <meta property="og:site_name" content="Arihant City Kalyan Bhiwandi" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Siyara Vista Kalyan | Luxury 2 & 3 BHK by Shakti Group" />
+    <meta property="og:title" content="Arihant City Kalyan Bhiwandi | Luxury 1, 2, 3 & 4 BHK" />
     <meta property="og:description"
-        content="Elevate your lifestyle at Siyara Vista Kalyan. High-rise living at Prem Auto Junction with world-class amenities and premium residences." />
-    <meta property="og:url" content="https://siyaravistakalyan.site/" />
-    <meta property="og:image" content="https://siyaravistakalyan.site/images/favicon.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="article:author" content="Siyara Vista Kalyan Authorized Partner" />
-    <meta property="article:tag" content="Siyara Vista Kalyan" />
-    <meta property="article:tag" content="Shakti Group" />
-    <meta property="article:tag" content="Kalyan West Real Estate" />
+        content="Elevate your lifestyle at Arihant City Kalyan Bhiwandi. High-rise living on Kalyan Bypass with world-class amenities and premium residences." />
+    <meta property="og:url" content="https://arihantcity.site/" />
+    <meta property="og:image" content="https://arihantcity.site/images/favicon.jpg" />
     <meta property="article:published_time" content="2026-04-17T09:05:09+05:30" />
     <meta property="article:modified_time" content="2026-04-17T10:15:27+05:30" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@SiyaraVistaKalyan" />
-    <meta name="twitter:creator" content="@SiyaraVistaKalyan" />
-    <meta name="twitter:title" content="Siyara Vista Kalyan - Premium Real Estate at Prem Auto Junction" />
+    <meta name="twitter:title" content="Arihant City Kalyan Bhiwandi - Premium Real Estate on Kalyan Bypass" />
     <meta name="twitter:description"
-        content="Explore Siyara Vista Kalyan. Enjoy high-rise living with seamless connectivity and premium amenities." />
-    <meta name="twitter:image" content="https://siyaravistakalyan.site/images/favicon.jpg" />
-    <link rel="shortcut icon" type="image/jpg" href="https://siyaravistakalyan.site/images/favicon.jpg" />
-    <link rel="canonical" href="https://siyaravistakalyan.site/" />
-    <link rel="alternate" href="https://siyaravistakalyan.site/" hreflang="en-IN" />
+        content="Explore Arihant City Kalyan Bhiwandi. Enjoy high-rise living with seamless connectivity and premium amenities." />
+    <meta name="twitter:image" content="https://arihantcity.site/images/favicon.jpg" />
+    <link rel="shortcut icon" type="image/jpg" href="https://arihantcity.site/images/favicon.jpg" />
+    <link rel="canonical" href="https://arihantcity.site/" />
     <!-- ====================================================================== -->
-
-    <!-- Preload Critical Assets for Speed (LCP Improvement) -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600&display=swap"
-        as="style">
-
-    <!-- Project Specific Meta Tags -->
-    <meta name="price" content="Starting ₹80 Lakhs+">
-    <meta name="location" content="Prem Auto Junction, Kalyan West, Maharashtra, India">
-    <meta name="developer" content="Shakti Group">
-    <meta name="contact-number" content="+91 82374 98373">
-    <meta name="property-type" content="Residential Apartments">
-
-    <meta name="robots" content="index, follow">
-
-    <!-- Geo & Local SEO Tags -->
-    <meta name="geo.region" content="IN-MH" />
-    <meta name="geo.placename" content="Kalyan West, Maharashtra" />
-    <meta name="geo.position" content="19.2291;73.1287" />
-    <meta name="ICBM" content="19.2291, 73.1287" />
-
-    <!-- Theme Color for Mobile Browsers -->
-    <meta name="theme-color" content="#a88c39" />
-    <meta name="msapplication-navbutton-color" content="#a88c39" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#a88c39" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <!-- Advanced Crawling & Target Audience Tags -->
-    <meta name="language" content="English" />
-    <meta name="distribution" content="Global" />
-    <meta name="rating" content="General" />
-    <meta name="subject" content="Premium Residences at Siyara Vista Kalyan West" />
-    <meta name="revisit-after" content="7 days" />
-
-    <!-- Local Business Schema for Better Map & Local Search Ranking -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "RealEstateAgent",
-      "name": "Siyara Vista Kalyan - Authorized Partner",
-      "image": "https://siyaravistakalyan.site/images/favicon.jpg",
-      "@id": "https://siyaravistakalyan.site/",
-      "url": "https://siyaravistakalyan.site/",
-      "telephone": "+918237498373",
-      "priceRange": "₹80 Lakhs - ₹1.20 Cr+",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Siyara Vista, Prem Auto Junction",
-        "addressLocality": "Kalyan West",
-        "addressRegion": "Maharashtra",
-        "postalCode": "421301",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 19.2291,
-        "longitude": 73.1287
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "09:00",
-        "closes": "19:00"
-      }
-    }
-    </script>
 
     <style>
         /* CSS Variables */
@@ -148,14 +65,6 @@ function get_val($key, $fallback = '') {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        html,
-        body {
-            overflow-x: hidden;
-            width: 100%;
-            position: relative;
-            box-sizing: border-box;
-        }
-
         body {
             color: var(--dark-text);
             line-height: 1.6;
@@ -168,7 +77,6 @@ function get_val($key, $fallback = '') {
             display: block;
         }
 
-        /* Utility */
         .container {
             width: 90%;
             max-width: 1200px;
@@ -217,26 +125,21 @@ function get_val($key, $fallback = '') {
         }
 
         .btn:hover {
-            background-color: var(--mid-green);
+            background-color: #927a32;
         }
 
-        /* Header */
         header {
             background-color: var(--primary-green);
             padding: 15px 0;
             position: sticky;
             top: 0;
             z-index: 1000;
-            border-bottom: 2px solid var(--accent-gold);
         }
 
         .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 95%;
-            max-width: 1400px;
-            margin: 0 auto;
         }
 
         .logo-img {
@@ -256,50 +159,15 @@ function get_val($key, $fallback = '') {
             text-transform: uppercase;
         }
 
-        .nav-actions .btn {
-            margin-top: 0;
-            padding: 10px 20px;
-            background-color: transparent;
-            border: 1px solid var(--white);
-        }
-
-        .nav-actions .btn.solid {
-            background-color: var(--tan-bg);
-            color: var(--primary-green);
-            border: none;
-        }
-
-        .hamburger {
-            display: none;
-            font-size: 1.8rem;
-            cursor: pointer;
-            background: none;
-            border: 1px solid white;
-            padding: 2px 10px;
-            color: white;
-            border-radius: 4px;
-        }
-
-        /* Hero */
         .hero {
             width: 100%;
-            height: auto;
-        }
-
-        /* Overview & Pricing */
-        .design-divider {
-            color: var(--primary-green);
-            font-size: 2rem;
-            margin-bottom: -5px;
-            text-align: center;
+            display: block;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 30px 0;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
 
         th {
@@ -307,63 +175,13 @@ function get_val($key, $fallback = '') {
             color: var(--white);
             padding: 15px;
             text-transform: uppercase;
-            border-right: 1px solid #1c6641;
         }
 
         td {
             padding: 15px;
             border-bottom: 1px solid #ddd;
-            background-color: #fdf5e6;
-            border-right: 1px solid #e0d0b8;
-            font-weight: 500;
-        }
-
-        #overview td {
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        #overview td:hover {
-            background-color: var(--light-green);
-            color: var(--primary-green);
-        }
-
-        /* Sections Backgrounds & Layouts */
-        .story-section {
-            background-color: var(--light-green);
-        }
-
-        .peaceful-section {
-            background-color: var(--primary-green);
-            color: var(--white);
-        }
-
-        .peaceful-section .section-title {
-            color: var(--white);
-        }
-
-        .flex-split {
-            display: flex;
-            align-items: center;
-            gap: 40px;
-        }
-
-        .flex-split>* {
-            flex: 1;
-        }
-
-        #plans img {
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        #plans img:hover {
-            opacity: 0.8;
-            transform: scale(1.02);
-        }
-
-        .amenities-cards {
-            background-color: var(--tan-bg);
+            background-color: #fcfbf7;
+            text-align: center;
         }
 
         .grid-2x2 {
@@ -377,6 +195,7 @@ function get_val($key, $fallback = '') {
             padding: 15px;
             text-align: center;
             border-radius: 5px;
+            border: 1px solid var(--light-green);
         }
 
         .card img {
@@ -384,12 +203,6 @@ function get_val($key, $fallback = '') {
             height: 250px;
             object-fit: cover;
             margin-bottom: 15px;
-            border-radius: 4px;
-        }
-
-        /* Connectivity Section */
-        .connectivity-section {
-            background-color: var(--light-green);
         }
 
         .conn-grid {
@@ -402,8 +215,6 @@ function get_val($key, $fallback = '') {
 
         .conn-col h4 {
             margin-bottom: 10px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
             color: var(--primary-green);
         }
 
@@ -414,37 +225,6 @@ function get_val($key, $fallback = '') {
 
         .conn-col li {
             margin-bottom: 8px;
-            position: relative;
-            padding-left: 15px;
-        }
-
-        .conn-col li::before {
-            content: "•";
-            position: absolute;
-            left: 0;
-            color: var(--primary-green);
-            font-size: 1.2rem;
-            line-height: 1;
-        }
-
-        /* Comfort Section */
-        .comfort-section {
-            background-color: var(--primary-green);
-            color: var(--white);
-        }
-
-        .comfort-section .section-title,
-        .comfort-section .section-subtitle {
-            color: var(--white);
-        }
-
-        .comfort-img {
-            width: 100%;
-            max-height: 400px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 30px;
-            border: 4px solid var(--tan-bg);
         }
 
         .comfort-list-grid {
@@ -452,7 +232,6 @@ function get_val($key, $fallback = '') {
             grid-template-columns: repeat(3, 1fr);
             gap: 15px;
             text-align: left;
-            font-size: 0.95rem;
         }
 
         .comfort-list-grid li {
@@ -465,56 +244,17 @@ function get_val($key, $fallback = '') {
             content: "✓";
             position: absolute;
             left: 0;
-            color: var(--tan-bg);
+            color: var(--primary-green);
         }
 
-        /* Floor Plans & Gallery */
-        .floor-plan-section {
-            background-color: var(--tan-bg);
-        }
-
-        .gallery-section {
-            background-color: var(--light-green);
-        }
-
-        .img-row {
-            display: flex;
-            gap: 30px;
-            justify-content: center;
-        }
-
-        .img-row img {
-            flex: 1;
-            border: 8px solid var(--white);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Why Choose */
-        .why-choose {
-            background-color: var(--primary-green);
-            color: var(--white);
-        }
-
-        .why-choose .section-title {
-            color: var(--white);
-        }
-
-        .why-choose p {
-            font-size: 0.95rem;
-            margin-bottom: 20px;
-            text-align: justify;
-            line-height: 1.8;
-        }
-
-        /* Contact & Map */
         .contact-section {
             display: flex;
-            background: #f0f0f0;
+            background: #fcfbf7;
         }
 
         .map-container {
             flex: 1.5;
-            min-height: 600px;
+            min-height: 500px;
         }
 
         .map-container iframe {
@@ -526,1005 +266,191 @@ function get_val($key, $fallback = '') {
         .form-container {
             flex: 1;
             padding: 50px 40px;
-            background-color: #e0e0e0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            background-color: #f4f1e6;
         }
 
         .form-container input,
-        .form-container select {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 1rem;
-        }
-
-        /* Footer */
-        footer {
-            background-color: var(--footer-bg);
-            color: var(--white);
-            padding: 40px 0 20px;
-            font-size: 0.85rem;
-            text-align: center;
-        }
-
-        /* =========================================
-           ON-LOAD POPUP
-           ========================================= */
-        .popup-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            z-index: 99999;
-            display: none;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .popup-overlay.show {
-            display: flex;
-        }
-
-        .popup-box {
-            background: var(--white);
-            width: 90%;
-            max-width: 400px;
-            border-radius: 8px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        }
-
-        .popup-close {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            font-size: 28px;
-            color: var(--dark-text);
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-        .popup-header {
-            background: var(--tan-bg);
-            color: var(--primary-green);
-            padding: 25px 20px;
-            text-align: center;
-        }
-
-        .popup-header h3 {
-            margin: 0;
-            font-size: 1.5rem;
-            text-transform: uppercase;
-        }
-
-        .popup-body {
-            padding: 30px 20px;
-            text-align: center;
-        }
-
-        .popup-body p {
-            margin-bottom: 20px;
-            font-size: 0.95rem;
-            color: var(--gray-text);
-        }
-
-        .popup-body input {
+        .form-container select,
+        .form-container textarea {
             width: 100%;
             padding: 12px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            box-sizing: border-box;
-            font-size: 1rem;
         }
 
-        .popup-btn {
-            width: 100%;
-            background: var(--primary-green);
-            color: white;
-            padding: 15px;
-            border: none;
-            font-size: 1rem;
-            text-transform: uppercase;
-            font-weight: bold;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-
-        /* =========================================
-           MOBILE RESPONSIVENESS & BOTTOM BAR
-           ========================================= */
-        .mobile-bottom-bar {
-            display: none;
-        }
-
-        @media (max-width: 992px) {
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                background-color: var(--primary-green);
-                padding: 20px 0;
-                text-align: center;
-                border-top: 1px solid #1a7649;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-links li {
-                margin-bottom: 15px;
-            }
-
-            .hamburger {
-                display: block;
-            }
-
-            .nav-actions {
-                display: none;
-            }
-
-            .flex-split,
-            .contact-section {
-                flex-direction: column;
-            }
-
-            .map-container {
-                min-height: 400px;
-                width: 100%;
-            }
-
-            .comfort-list-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+        footer {
+            background-color: var(--footer-bg);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.85rem;
         }
 
         @media (max-width: 768px) {
-            .section-padding {
-                padding: 40px 0;
-            }
-
-            .section-title {
-                font-size: 1.5rem;
-                line-height: 1.2;
-                padding: 0 10px;
-            }
-
-            .section-subtitle {
-                font-size: 0.95rem;
-                margin-bottom: 25px;
-                padding: 0 15px;
-            }
-
-            .grid-2x2,
-            .img-row {
+            .grid-2x2, .conn-grid, .comfort-list-grid, .contact-section {
+                grid-template-columns: 1fr;
                 flex-direction: column;
-                display: flex;
-                gap: 15px;
-            }
-
-            .conn-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .comfort-list-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .table-wrapper {
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                margin-top: 20px;
-            }
-
-            table {
-                min-width: 500px;
-                font-size: 0.85rem;
-            }
-
-            th,
-            td {
-                padding: 10px 5px;
-            }
-
-            .nav-container {
-                width: 95%;
-                max-width: 100vw;
-            }
-
-            .logo-img {
-                height: 35px;
-                max-width: 150px;
-            }
-
-            .popup-box {
-                width: 92%;
-                max-width: 380px;
-                margin: 0 auto;
-            }
-
-            .popup-header {
-                padding: 20px 15px;
-            }
-
-            .popup-header h3 {
-                font-size: 1.3rem;
-            }
-
-            .popup-body {
-                padding: 20px 15px;
-            }
-
-            .popup-close {
-                top: 5px;
-                right: 10px;
-                font-size: 24px;
-            }
-
-            body {
-                padding-bottom: 90px;
-            }
-
-            /* Prevent footer hide */
-
-            /* SHOW FIXED BOTTOM BAR */
-            .mobile-bottom-bar {
-                display: block;
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                z-index: 9999;
-                box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-            }
-
-            .appointment-banner {
-                background-color: #3b3b3b;
-                color: #ffffff;
-                text-align: center;
-                padding: 8px;
-                font-size: 0.85rem;
-                font-weight: 600;
-            }
-
-            .action-buttons {
-                display: flex;
-                width: 100%;
-            }
-
-            .action-buttons a {
-                flex: 1;
-                text-decoration: none;
-                color: #ffffff;
-                text-align: center;
-                padding: 14px 2px;
-                font-size: 0.85rem;
-                font-weight: bold;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 8px;
-                text-transform: uppercase;
-            }
-
-            .action-buttons svg {
-                width: 18px;
-                height: 18px;
-                fill: currentColor;
-            }
-
-            .btn-call {
-                background-color: #a88c39;
-            }
-
-            .btn-enquire {
-                background-color: #333333;
-            }
-
-            .btn-whatsapp {
-                background-color: #25d366;
-                /* Standard WhatsApp Green */
-            }
-
-            /* Muted Teal */
-        }
-
-        @media (max-width: 480px) {
-            .conn-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .action-buttons a {
-                font-size: 0.75rem;
-                padding: 12px 2px;
-            }
-        }
-
-        /* =========================================
-           LIGHTBOX STYLES
-           ========================================= */
-        .lightbox-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.95);
-            z-index: 100000;
-            display: none;
-            justify-content: center;
-            align-items: center;
-            backdrop-filter: blur(5px);
-        }
-
-        .lightbox-overlay.show {
-            display: flex;
-        }
-
-        .lightbox-content {
-            max-width: 90%;
-            max-height: 80%;
-            border: 4px solid white;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-            object-fit: contain;
-        }
-
-        .lb-close {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            color: white;
-            font-size: 45px;
-            cursor: pointer;
-            font-weight: bold;
-            z-index: 100001;
-        }
-
-        .lb-nav {
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            padding: 0 40px;
-            transform: translateY(-50%);
-            pointer-events: none;
-        }
-
-        .lb-btn {
-            color: white;
-            font-size: 60px;
-            cursor: pointer;
-            pointer-events: auto;
-            background: none;
-            border: none;
-            transition: 0.3s;
-            padding: 15px;
-            text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-        }
-
-        .lb-btn:hover {
-            color: var(--tan-bg);
-            transform: scale(1.1);
-        }
-
-        @media (max-width: 768px) {
-            .lb-btn {
-                font-size: 40px;
-                padding: 10px;
-            }
-
-            .lb-nav {
-                padding: 0 10px;
             }
         }
     </style>
-
-    <!-- JS Logic -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // 1. Mobile Hamburger
-            document.getElementById('hamburger').addEventListener('click', () => {
-                document.getElementById('nav-links').classList.toggle('active');
-            });
-
-            // 2. Popup Logic
-            const popup = document.getElementById('auto-popup');
-            const closeBtn = document.getElementById('close-popup');
-
-            // Show popup after 4 seconds
-            setTimeout(() => { popup.classList.add('show'); }, 4000);
-
-            closeBtn.addEventListener('click', () => { popup.classList.remove('show'); });
-            popup.addEventListener('click', (e) => { if (e.target === popup) popup.classList.remove('show'); });
-
-            // Trigger popup on all CTA buttons
-            const triggerBtns = document.querySelectorAll('.btn, .btn-enquire, #overview td, #plans img');
-            triggerBtns.forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    if (btn.closest('#auto-popup')) return;
-                    if (btn.type === 'submit' && btn.closest('form')) return;
-
-                    e.preventDefault();
-                    popup.classList.add('show');
-                });
-            });
-
-            // --- Lightbox Logic ---
-            const lightbox = document.getElementById('lightbox');
-            const lbImg = document.getElementById('lb-img');
-            const closeLb = document.getElementById('close-lb');
-            const prevLb = document.getElementById('prev-lb');
-            const nextLb = document.getElementById('next-lb');
-
-            let galleryImages = [];
-            let currentIndex = 0;
-
-            const updateGalleryImages = () => {
-                const galleryImgs = document.querySelectorAll('#gallery img, #plans img');
-                galleryImages = Array.from(galleryImgs).map(img => img.src).filter(src => src && src.trim() !== "");
-            };
-
-            const openLightbox = (index) => {
-                currentIndex = index;
-                lbImg.src = galleryImages[currentIndex];
-                lightbox.classList.add('show');
-                document.body.style.overflow = 'hidden';
-            };
-
-            const navigate = (step) => {
-                currentIndex = (currentIndex + step + galleryImages.length) % galleryImages.length;
-                lbImg.src = galleryImages[currentIndex];
-            };
-
-            document.addEventListener('click', (e) => {
-                const clickedImg = e.target.closest('#gallery img, #plans img');
-                if (clickedImg) {
-                    updateGalleryImages();
-                    const src = clickedImg.src;
-                    const index = galleryImages.indexOf(src);
-                    if (index !== -1) openLightbox(index);
-                }
-            });
-
-            closeLb.onclick = () => {
-                lightbox.classList.remove('show');
-                document.body.style.overflow = '';
-            };
-
-            lightbox.onclick = (e) => { if (e.target === lightbox) closeLb.onclick(); };
-            prevLb.onclick = (e) => { e.stopPropagation(); navigate(-1); };
-            nextLb.onclick = (e) => { e.stopPropagation(); navigate(1); };
-
-            document.addEventListener('keydown', (e) => {
-                if (!lightbox.classList.contains('show')) return;
-                if (e.key === 'Escape') closeLb.onclick();
-                if (e.key === 'ArrowLeft') navigate(-1);
-                if (e.key === 'ArrowRight') navigate(1);
-            });
-
-            // 3. AJAX Form Submission → Google Sheets
-            const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbybpYmnerQ-BmqdWC0LUF40P09eGxaCgGADhPIM-FquIO4GTR0-oS42DCV6JP5ll_Gz/exec";
-            const PROJECT_NAME = "Siyara Vista Kalyan - Shakti Group";
-
-            const handleFormSubmit = (e) => {
-                e.preventDefault();
-                const form = e.target;
-                const submitBtn = form.querySelector('button[type="submit"]');
-                const originalBtnText = submitBtn.innerText;
-
-                submitBtn.disabled = true;
-                submitBtn.innerText = "Sending...";
-
-                const params = new URLSearchParams({
-                    project_name: PROJECT_NAME,
-                    name: form.querySelector('[name="name"]') ? form.querySelector('[name="name"]').value : "",
-                    phone: form.querySelector('[name="phone"]') ? form.querySelector('[name="phone"]').value : "",
-                    email: form.querySelector('[name="email"]') ? form.querySelector('[name="email"]').value : "",
-                    config: form.querySelector('[name="config"]') ? form.querySelector('[name="config"]').value : "",
-                    source: window.location.hostname
-                });
-
-                fetch(GOOGLE_SCRIPT_URL + "?" + params.toString())
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.status === 'success') {
-                            alert("✅ Thank you! Your enquiry for Siyara Vista Kalyan has been received. We will contact you shortly.");
-                            form.reset();
-                            const popup = document.getElementById('auto-popup');
-                            if (popup) popup.classList.remove('show');
-                        } else {
-                            alert("Something went wrong. Please try again.");
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                        alert("Submission failed. Please check your connection.");
-                    })
-                    .finally(() => {
-                        submitBtn.disabled = false;
-                        submitBtn.innerText = originalBtnText;
-                    });
-            };
-
-            const forms = document.querySelectorAll('form');
-            forms.forEach(form => {
-                form.addEventListener('submit', handleFormSubmit);
-            });
-        });
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SiteNavigationElement",
-      "name": [
-        "Overview",
-        "Amenities",
-        "Connectivity",
-        "Floor Plans",
-        "Gallery",
-        "Contact",
-        "Blog"
-      ],
-      "url": [
-        "https://siyaravistakalyan.site/#overview",
-        "https://siyaravistakalyan.site/#amenities",
-        "https://siyaravistakalyan.site/#connectivity",
-        "https://siyaravistakalyan.site/#plans",
-        "https://siyaravistakalyan.site/#gallery",
-        "https://siyaravistakalyan.site/#contact",
-        "https://siyaravistakalyan.site/blog/index.html"
-      ]
-    }
-    </script>
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <header>
-        <div class="nav-container">
-            <a href="/"><img id="logo" src="<?=get_val('site_logo', 'images/site_logo_1776468513.png')?>" alt="Siyara Vista Kalyan"
-                    class="logo-img"></a>
+        <div class="nav-container container">
+            <a href="index.php"><img id="logo" src="<?= get_val('site_logo', 'images/site_logo_1776842346.jpg') ?>" alt="Arihant City Logo" class="logo-img"></a>
             <nav>
-                <ul class="nav-links" id="nav-links">
+                <ul class="nav-links">
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#amenities">Amenities</a></li>
                     <li><a href="#connectivity">Connectivity</a></li>
                     <li><a href="#plans">Floor Plans</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="blog/index.html">Blog</a></li>
                 </ul>
             </nav>
-            <div class="nav-actions">
-                <button class="btn">Brochure</button>
-                <button class="btn solid">Enquire Now</button>
-            </div>
-            <button class="hamburger" id="hamburger">☰</button>
         </div>
     </header>
 
     <main>
-        <!-- Hero Banner -->
-        <section id="home">
-            <h1
-                style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">
-                Siyara Vista Kalyan</h1>
-            <img id="hero" src="<?=get_val('hero_banner', 'images/hero_banner_1776468513.jpg')?>" alt="Siyara Vista Kalyan Hero Banner" class="hero">
+        <img src="<?= get_val('hero_banner', 'images/hero_banner_1776842594.png') ?>" alt="Arihant City Hero Banner" class="hero">
+
+        <section id="overview" class="section-padding container text-center">
+            <h2 class="section-title"><?= get_val('ov_title', 'ARIHANT CITY KALYAN BHIWANDI - PROJECT OVERVIEW') ?></h2>
+            <p class="section-subtitle"><?= get_val('ov_desc', 'Experience the ultimate lifestyle at Arihant City, a premier residential township...') ?></p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Configuration</th>
+                        <th>Carpet Area</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 BHK Luxury</td>
+                        <td><?= get_val('p_2bhk_area', '543 SqFt') ?></td>
+                        <td><?= get_val('p_2bhk_price', '₹ 44.99 Lakhs*') ?></td>
+                    </tr>
+                    <tr>
+                        <td>2 BHK Elite</td>
+                        <td><?= get_val('p_3bhk_area', '760 SqFt') ?></td>
+                        <td><?= get_val('p_3bhk_price', '₹ 89.99 Lakhs*') ?></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn">Download Full Price List</button>
         </section>
 
-        <!-- Overview & Pricing -->
-        <section id="overview" class="section-padding text-center">
-            <div class="container">
-                <div class="design-divider">⸎</div>
-                <h2 class="section-title"><?=get_val('ov_title', 'SIYARA VISTA KALYAN WEST')?></h2>
-                <p class="section-subtitle"><?=get_val('ov_desc', 'Discover elevated living with modern design, premium amenities, and excellent connectivity at one of Kalyan’s fastest-growing locations. Siyara Vista by Shakti Group offers a perfect blend of luxury and functionality for modern families.')?></p>
-
-                <div class="table-wrapper">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Configuration</th>
-                                <th>Carpet Area</th>
-                                <th>Starting Price</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Spacious 2 BHK</td>
-                                <td><?=get_val('p_2bhk_area', '623 – 760 sq.ft.')?></td>
-                                <td style="font-weight:bold;"><?=get_val('p_2bhk_price', '₹ 80 Lakhs*+')?></td>
-                            </tr>
-                            <tr>
-                                <td>Premium 3 BHK</td>
-                                <td><?=get_val('p_3bhk_area', '1000+ sq.ft.')?></td>
-                                <td style="font-weight:bold;"><?=get_val('p_3bhk_price', '₹ 1.20 Cr*+')?></td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <section class="section-padding" style="background-color: var(--light-green);">
+            <div class="container text-center">
+                <h2 class="section-title"><?= get_val('story_title', 'THE LEGACY OF ARIHANT CITY') ?></h2>
+                <div style="text-align: justify; max-width: 900px; margin: 0 auto; margin-bottom: 30px;">
+                    <?= nl2br(get_val('story_desc', 'Arihant City is a meticulously planned township...')) ?>
                 </div>
-                <button class="btn">Get Best Price Advantage</button>
+                <img src="<?= get_val('story_img', 'images/story_img_1776842594.png') ?>" alt="Arihant City Story" style="max-width: 700px; margin: 0 auto; border: 5px solid #fff;">
             </div>
         </section>
 
-        <!-- Project Story -->
-        <section class="story-section section-padding text-center">
-            <div class="container">
-                <h2 class="section-title"><?=get_val('story_title', 'THE STORY OF SIYARA VISTA KALYAN')?></h2>
-                <p class="section-subtitle"><?=get_val('story_desc', 'Experience luxury living with state-of-the-art amenities curated perfectly for you. Shakti Group presents a high-rise marvel that redefines the skyline of Kalyan West.')?></p>
-                <img id="story_img" src="<?=get_val('story_img', 'images/story_img_1776468649.webp')?>" alt="Siyara Vista Kalyan Project Story"
-                    style="max-width:700px; margin:0 auto; border: 8px solid #fff; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-                <br>
-                <button class="btn">Watch Project Overview</button>
+        <section id="amenities" class="section-padding container text-center">
+            <h2 class="section-title"><?= get_val('am_title', 'PREMIUM AMENITIES') ?></h2>
+            <p class="section-subtitle"><?= get_val('am_desc', 'World-class facilities for your comfort.') ?></p>
+            <div class="grid-2x2">
+                <div class="card"><img src="<?= get_val('am1_img', 'images/am1_img_1776842717.png') ?>" alt="Amenity 1"><h3>Swimming Pool</h3></div>
+                <div class="card"><img src="<?= get_val('am2_img', 'images/am2_img_1776842717.png') ?>" alt="Amenity 2"><h3>Clubhouse</h3></div>
+                <div class="card"><img src="<?= get_val('am3_img', 'images/am3_img_1776842717.png') ?>" alt="Amenity 3"><h3>Fitness Center</h3></div>
+                <div class="card"><img src="<?= get_val('am4_img', 'images/am4_img_1776842717.png') ?>" alt="Amenity 4"><h3>Gardens</h3></div>
             </div>
         </section>
 
-        <!-- Peaceful Aura -->
-        <section class="peaceful-section section-padding">
-            <div class="container flex-split">
-                <div><img id="peace_img" src="<?=get_val('peace_img', 'images/peace_img_1776468735.webp')?>"
-                        alt="Peaceful Living at Siyara Vista Kalyan"
-                        style="border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);"></div>
-                <article>
-                    <h2 class="section-title" style="text-align: left;"><?=get_val('peace_title', 'EACH MORNING GREETS YOU WITH A PEACEFUL AURA')?>
-                    </h2>
-                    <p style="margin-bottom: 20px; font-size: 1.05rem; opacity: 0.9;"><?=get_val('peace_desc', 'Wake up to breathtaking views and serene surroundings at Siyara Vista Kalyan. Our thoughtfully designed spaces ensure maximum natural light and ventilation, providing a perfect blend of nature and modern architecture. Escape the hustle and bustle while staying connected to the heart of Kalyan West.')?></p>
-                    <button class="btn" style="background-color: var(--tan-bg); color: var(--primary-green);">Download
-                        Project Brochure</button>
-                </article>
-            </div>
-        </section>
-
-        <!-- Amenities Grid -->
-        <section id="amenities" class="amenities-cards section-padding text-center">
-            <div class="container">
-                <h2 class="section-title" style="color: var(--primary-green);"><?=get_val('am_title', 'WORLD-CLASS AMENITIES AT SIYARA VISTA')?>
-                </h2>
-                <p class="section-subtitle" style="color: var(--dark-text);"><?=get_val('am_desc', 'Experience an elevated lifestyle at Siyara Vista Kalyan with curated amenities for every age group, designed to pamper you every single day.')?>
-                </p>
-
-                <div class="grid-2x2">
-                    <div class="card"><img id="am1_img" src="<?=get_val('am1_img', 'images/am1_img_1776468649.webp')?>"
-                            alt="Grand Entrance Lobby Siyara Vista Kalyan">
-                        <h3 style="color:var(--primary-green);">Grand Entrance Lobby</h3>
-                    </div>
-                    <div class="card"><img id="am2_img" src="<?=get_val('am2_img', 'images/am2_img_1776468649.webp')?>"
-                            alt="Kids Play Area Siyara Vista Kalyan">
-                        <h3 style="color:var(--primary-green);">Children's Play Area</h3>
-                    </div>
-                    <div class="card"><img id="am3_img" src="<?=get_val('am3_img', 'images/am3_img_1776468649.webp')?>"
-                            alt="Modern Gymnasium Siyara Vista Kalyan">
-                        <h3 style="color:var(--primary-green);">Modern Gymnasium</h3>
-                    </div>
-                    <div class="card"><img id="am4_img" src="<?=get_val('am4_img', 'images/am4_img_1776468649.webp')?>"
-                            alt="Swimming Pool Siyara Vista Kalyan">
-                        <h3 style="color:var(--primary-green);">Infinity Swimming Pool</h3>
-                    </div>
-                </div>
-                <button class="btn">Explore All Amenities</button>
-            </div>
-        </section>
-
-        <!-- Connectivity Section -->
-        <section id="connectivity" class="connectivity-section section-padding text-center">
-            <div class="container">
-                <div class="design-divider">⸎</div>
-                <h2 class="section-title"><?=get_val('conn_title', 'SEAMLESS CONNECTIVITY IN KALYAN WEST')?></h2>
-                <p class="section-subtitle"><?=get_val('conn_desc', 'Siyara Vista Kalyan is strategically located at Prem Auto Junction, ensuring that everything you need is just a few minutes away from your dream home.')?></p>
-
+        <section id="connectivity" class="section-padding" style="background-color: #fcfbf7;">
+            <div class="container text-center">
+                <h2 class="section-title"><?= get_val('conn_title', 'STRATEGIC CONNECTIVITY') ?></h2>
+                <p class="section-subtitle"><?= get_val('conn_desc', 'Everything you need is just minutes away.') ?></p>
                 <div class="conn-grid">
-                    <div class="conn-col">
-                        <h4>🏫 Education</h4>
-                        <ul>
-                            <li>Podar International</li>
-                            <li>Cambrian Hall</li>
-                            <li>Holy Cross School</li>
-                            <li>BK Birla College</li>
-                        </ul>
-                    </div>
-                    <div class="conn-col">
-                        <h4>🏥 Healthcare</h4>
-                        <ul>
-                            <li>Fortis Hospital</li>
-                            <li>Aayush Hospital</li>
-                            <li>Meera Hospital</li>
-                            <li>Holy Cross Hospital</li>
-                        </ul>
-                    </div>
-                    <div class="conn-col">
-                        <h4>🛒 Shopping / Malls</h4>
-                        <ul>
-                            <li>Metro Junction Mall</li>
-                            <li>Sarvoday Mall</li>
-                            <li>D Mart Kalyan</li>
-                            <li>Big Bazaar</li>
-                        </ul>
-                    </div>
-                    <div class="conn-col">
-                        <h4>🚆 Transport</h4>
-                        <ul>
-                            <li>Kalyan Station</li>
-                            <li>Upcoming Metro Line</li>
-                            <li>Prem Auto Junction</li>
-                            <li>Shahad Station</li>
-                        </ul>
-                    </div>
-                </div>
-                <button class="btn">Download Location Map</button>
-            </div>
-        </section>
-
-        <!-- Comfort Courtyard -->
-        <section class="comfort-section section-padding text-center">
-            <div class="container">
-                <h2 class="section-title"><?=get_val('comf_title', 'ELEVATE YOUR COMFORT & CONVENIENCE')?></h2>
-                <p class="section-subtitle"><?=get_val('comf_desc', 'Discover a wide range of facilities designed to pamper you every single day at Siyara Vista Kalyan. From fitness to relaxation, we have it all covered.')?></p>
-
-                <img id="comf_img" src="<?=get_val('comf_img', 'images/comf_img_1776468861.png')?>" alt="Comfort Courtyard Siyara Vista Kalyan"
-                    class="comfort-img">
-
-                <ul class="comfort-list-grid">
-                    <li>Swimming Pool</li>
-                    <li>Grand Entrance Lobby</li>
-                    <li>Podium Garden</li>
-                    <li>Modern Gymnasium</li>
-                    <li>Children’s Play Area</li>
-                    <li>Indoor Games Zone</li>
-                    <li>Jogging / Walking Track</li>
-                    <li>Multipurpose Hall</li>
-                    <li>24x7 Security with CCTV</li>
-                </ul>
-                <button class="btn" style="background-color: var(--tan-bg); color: var(--primary-green);">Book Site
-                    Visit Now</button>
-            </div>
-        </section>
-
-        <!-- Floor Plans -->
-        <section id="plans" class="floor-plan-section section-padding text-center">
-            <div class="container">
-                <div class="design-divider">❖</div>
-                <h2 class="section-title"><?=get_val('fp_title', 'SIYARA VISTA KALYAN MASTER PLAN')?></h2>
-                <p class="section-subtitle" style="color: var(--dark-text);"><?=get_val('fp_desc', 'Explore our meticulously planned layouts designed for maximum space utilization and comfort. Every 2 BHK and 3 BHK apartment at Siyara Vista is a masterpiece of design.')?></p>
-
-                <div class="img-row">
-                    <img id="fp1_img" src="<?=get_val('fp1_img', 'images/fp1_img_1776490386.jpg')?>" alt="Floor Plan 2 BHK Siyara Vista Kalyan">
-                    <img id="fp2_img" src="<?=get_val('fp2_img', 'images/fp2_img_1776490386.jpg')?>" alt="Floor Plan 3 BHK Siyara Vista Kalyan">
-                </div>
-                <button class="btn">Download Floor Plan PDF</button>
-            </div>
-        </section>
-
-        <!-- Gallery -->
-        <section id="gallery" class="gallery-section section-padding text-center">
-            <div class="container">
-                <h2 class="section-title"><?=get_val('gal_title', 'GLIMPSE OF KALYAN WEST LATEST PROJECT')?></h2>
-                <p class="section-subtitle"><?=get_val('gal_desc', 'Take a tour of your future home with these exclusive previews of Siyara Vista Kalyan. Experience the high-rise luxury even before you move in.')?></p>
-
-                <div class="img-row">
-                    <img id="gal1_img" src="<?=get_val('gal1_img', 'images/gal1_img_1776468861.webp')?>" alt="Siyara Vista Kalyan Gallery Image 1">
-                    <img id="gal2_img" src="<?=get_val('gal2_img', 'images/gal2_img_1776468861.webp')?>" alt="Siyara Vista Kalyan Gallery Image 2">
-                </div>
-                <button class="btn">View Complete Gallery</button>
-            </div>
-        </section>
-
-        <!-- Why        <section class="why-choose section-padding">
-            <div class="container">
-                <h2 class="section-title text-center"><?=get_val('why_title', 'WHY SIYARA VISTA KALYAN BY SHAKTI GROUP IS SO SPECIAL?')?></h2>
-                <div id="why_desc">
-                    <?=get_val('why_desc', '<p><strong>Introduction: A New Era of Luxury in Kalyan West</strong><br>Welcome to Siyara Vista Kalyan...</p>')?>
-                </div>on, Kalyan West, awaits you!</p>
-                </div>
-                <div class="text-center">
-                    <button class="btn" style="background-color: var(--tan-bg); color: var(--primary-green);">Request
-                        Call Back Now</button>
+                    <div class="conn-col"><h4>Transport</h4><ul><li>Metro Line 5 - 0.2 km</li><li>Kalyan Station - 8.4 km</li></ul></div>
+                    <div class="conn-col"><h4>Education</h4><ul><li>Swayam Siddhi College</li><li>Holy Cross School</li></ul></div>
+                    <div class="conn-col"><h4>Lifestyle</h4><ul><li>McDonald's - 1.2 km</li><li>Dmart - 2.5 km</li></ul></div>
+                    <div class="conn-col"><h4>Healthcare</h4><ul><li>Life Care Hospital</li><li>Fortis Hospital</li></ul></div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact & Map -->
+        <section id="plans" class="section-padding container text-center">
+            <h2 class="section-title"><?= get_val('fp_title', 'MASTER PLANS') ?></h2>
+            <div class="grid-2x2">
+                <img src="<?= get_val('fp1_img', 'images/fp1_img_1776490386.jpg') ?>" alt="Floor Plan 1" style="border: 1px solid #ddd;">
+                <img src="<?= get_val('fp2_img', 'images/fp2_img_1776490386.jpg') ?>" alt="Floor Plan 2" style="border: 1px solid #ddd;">
+            </div>
+        </section>
+
+        <section id="blogs" class="section-padding container">
+            <h2 class="section-title text-center">LATEST INSIGHTS & BLOG</h2>
+            <p class="section-subtitle text-center">Expert advice and updates on Arihant City Kalyan Bhiwandi and the Thane-Bhiwandi real estate market.</p>
+            <div class="grid-2x2">
+                <div class="card" style="text-align: left; padding: 20px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">1 BHK Luxury Living in Bhiwandi</h3>
+                    <p style="font-size: 0.9rem; color: #555;">Discover why 1 BHK flats in Arihant City are the perfect start for young professionals...</p>
+                    <a href="blog/1bhk-flats-in-thane.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                </div>
+                <div class="card" style="text-align: left; padding: 20px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">The Rise of Kalyan-Bhiwandi Bypass</h3>
+                    <p style="font-size: 0.9rem; color: #555;">How infrastructure is making Arihant City the most connected project in Thane...</p>
+                    <a href="blog/residential-projects-in-thane.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                </div>
+                <div class="card" style="text-align: left; padding: 20px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Affordable Luxury in Thane District</h3>
+                    <p style="font-size: 0.9rem; color: #555;">Arihant City Kalyan Bhiwandi offers premium amenities at unbeatable prices...</p>
+                    <a href="blog/affordable-flats-in-thane.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                </div>
+                <div class="card" style="text-align: left; padding: 20px;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Investment Potential in Bhiwandi</h3>
+                    <p style="font-size: 0.9rem; color: #555;">Why real estate experts are recommending Arihant City for long-term growth...</p>
+                    <a href="blog/future-of-bhiwandi-real-estate.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 30px;">
+                <a href="blog/index.html" class="btn">View All Articles</a>
+            </div>
+        </section>
+
         <section id="contact" class="contact-section">
             <div class="map-container">
-                <!-- Using static iframe for demo map -->
-                <iframe id="map-iframe"
-                    src="<?=get_val('google_map', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.866579696954!2d73.12652241490215!3d19.2290931870041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7940f55555555%3A0x5555555555555555!2sPrem%20Auto%20Junction%2C%20Kalyan%20West!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin')?>"
-                    loading="lazy"></iframe>
+                <iframe src="<?= get_val('google_map', 'https://www.google.com/maps/embed?pb=...') ?>" loading="lazy"></iframe>
             </div>
             <div class="form-container">
-                <h2 class="section-title" style="color: var(--primary-green);">ENQUIRE NOW</h2>
-                <p style="margin-bottom: 20px; color: var(--gray-text);">Drop your details below and our property expert
-                    for Siyara Vista Kalyan will contact you shortly.</p>
+                <h2 class="section-title">Enquire Now</h2>
+                <p>Register to get exclusive pricing and priority access.</p>
                 <form action="contact.php" method="POST">
-                    <input type="text" name="name" placeholder="Full Name *" required>
-                    <input type="tel" name="phone" placeholder="Mobile Number *" required>
-                    <input type="email" name="email" placeholder="Email Address">
-                    <select name="config" required>
-                        <option value="">Interested Configuration</option>
-                        <option value="2bhk">2 BHK</option>
-                        <option value="3bhk">3 BHK</option>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="tel" name="phone" placeholder="Mobile Number" required>
+                    <select name="config">
+                        <option value="1BHK">1 BHK</option>
+                        <option value="2BHK">2 BHK</option>
+                        <option value="3BHK">3 BHK</option>
+                        <option value="4BHK">4 BHK</option>
                     </select>
-                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Submit Enquiry</button>
+                    <button type="submit" class="btn" style="width: 100%;">Submit Enquiry</button>
                 </form>
             </div>
         </section>
+    </main>
 
-        <!-- Recent Blogs Section -->
-    <section id="recent-blogs" class="section-padding" style="background-color: #fff; border-top: 1px solid #eef0e5;">
+    <footer>
         <div class="container">
-            <h2 class="section-title text-center">SIYARA VISTA KALYAN INSIGHTS</h2>
-            <p class="section-subtitle text-center">Stay updated with the latest trends, investment tips, and lifestyle guides for Kalyan West.</p>
-            
-            <div class="grid-2x2" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
-                <div class="card" style="text-align: left; padding: 25px; background: #fcfbf7; border: 1px solid #eef0e5; transition: 0.3s;">
-                    <h4 style="color: #a88c39; margin-bottom: 10px;">Luxury Living Future</h4>
-                    <p style="font-size: 0.95rem; margin-bottom: 15px;">Discover how Siyara Vista is redefining high-rise luxury in Kalyan West.</p>
-                    <a href="blog/luxury-living-siyara-vista-kalyan.html" style="color: #a88c39; font-weight: 600; text-decoration: none;">Read More &rarr;</a>
-                </div>
-                <div class="card" style="text-align: left; padding: 25px; background: #fcfbf7; border: 1px solid #eef0e5; transition: 0.3s;">
-                    <h4 style="color: #a88c39; margin-bottom: 10px;">Investment Analysis</h4>
-                    <p style="font-size: 0.95rem; margin-bottom: 15px;">Top 5 reasons why Prem Auto Junction is the best investment spot right now.</p>
-                    <a href="blog/investment-benefits-siyara-vista-kalyan.html" style="color: #a88c39; font-weight: 600; text-decoration: none;">Read More &rarr;</a>
-                </div>
-                <div class="card" style="text-align: left; padding: 25px; background: #fcfbf7; border: 1px solid #eef0e5; transition: 0.3s;">
-                    <h4 style="color: #a88c39; margin-bottom: 10px;">Amenities Deep Dive</h4>
-                    <p style="font-size: 0.95rem; margin-bottom: 15px;">A detailed look at the world-class lifestyle features at Siyara Vista.</p>
-                    <a href="blog/amenities-guide-siyara-vista-kalyan.html" style="color: #a88c39; font-weight: 600; text-decoration: none;">Read More &rarr;</a>
-                </div>
-                <div class="card" style="text-align: left; padding: 25px; background: #fcfbf7; border: 1px solid #eef0e5; transition: 0.3s;">
-                    <h4 style="color: #a88c39; margin-bottom: 10px;">Commuter's Guide</h4>
-                    <p style="font-size: 0.95rem; margin-bottom: 15px;">Why Siyara Vista Kalyan is the perfect hub for Mumbai & Thane commuters.</p>
-                    <a href="blog/connectivity-guide-siyara-vista-kalyan.html" style="color: #a88c39; font-weight: 600; text-decoration: none;">Read More &rarr;</a>
-                </div>
+            <div style="margin-bottom: 20px;">
+                <a href="index.php" style="color: #fff; text-decoration: none; margin: 0 10px;">Home</a> |
+                <a href="blog/index.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Blogs</a> |
+                <a href="disclaimer.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Disclaimer</a> |
+                <a href="privacy-policy.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Privacy Policy</a> |
+                <a href="terms-and-conditions.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Terms & Conditions</a>
             </div>
-            <div class="text-center" style="margin-top: 40px;">
-                <a href="blog/index.html" class="btn" style="padding: 12px 30px;">View All Articles</a>
-            </div>
+            <p>© 2026 Arihant City Kalyan Bhiwandi. All Rights Reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.75rem; opacity: 0.8;">Disclaimer: All images and plans are artist's impressions. Please refer to RERA for accurate details.</p>
         </div>
-    </section>
+    </footer>
 
-    <!-- Navigation Links Above Footer -->
-        <section class="footer-nav section-padding"
-            style="padding-top: 20px; padding-bottom: 20px; background-color: #f9f9f9; border-top: 1px solid #ddd;">
-            <div class="container text-center">
-                <style>
-                    .footer-links {
-                        list-style: none;
-                        padding: 0;
-                        display: flex;
-                        justify-content: center;
-                        flex-wrap: wrap;
-                        gap: 15px;
-                        margin-bottom: 0;
-                    }
-
-                    .footer-links li {
-                        display: flex;
-                        align-items: center;
-                    }
-
-                    .footer-links li:not(:last-child)::after {
-                        content: "|";
-                        margin-left: 15px;
-                        color: #a88c39;
-                        font-weight: bold;
-                    }
-
-                    .footer-links a {
-                        text-decoration: none;
-                        color: #333;
-                        font-weight: 500;
-                        transition: 0.3s;
-                    }
-
-                    .footer-links a:hover {
-                        color: #a88c39;
-                    }
-                </style>
-                <ul class="footer-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog/index.html">Blogs</a></li>
-                    <li><a href="disclaimer.html">Disclaimer</a></li>
-                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <p>Disclaimer: The information provided on this website is for general informational purposes only.
-                    Siyara Vista Kalyan is a project by Shakti Group and is registered under MahaRERA. The images,
-                    plans, layouts, and specifications are tentative and subject to change by the developer without
-                    prior notice. This website does not constitute an offer and/or contract of any type. Visual
-                    representations are artist's impressions.</p>
-                <p style="margin-top: 10px;">© 2026 Siyara Vista Kalyan Authorized Partner.</p>
-            </div>
-        </footer>
-
-        <!-- =========================================
-         ON PAGE LOAD POPUP FORM
-         ========================================= -->
-        <div id="auto-popup" class="popup-overlay">
-            <div class="popup-box">
-                <span class="popup-close" id="close-popup">&times;</span>
-                <div class="popup-header">
-                    <img id="popup-logo" src="<?=get_val('site_logo', 'images/site_logo_1776468513.png')?>" alt="Siyara Vista Kalyan Logo"
-                        style="height: 45px; margin: 0 auto 15px; display: block;">
-                    <h3>PRIORITY PASS OPEN</h3>
-                </div>
-                <div class="popup-body">
-                    <p>Register now to get exclusive access to Siyara Vista Kalyan Pricing & Floor Plans before the
-                        official launch!</p>
-                    <form action="contact.php" method="POST">
-                        <input type="text" name="name" placeholder="Your Name *" required>
-                        <input type="tel" name="phone" placeholder="Mobile Number *" required>
-                        <button type="submit" class="popup-btn">Unlock Details Now</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- =========================================
-         MOBILE FIXED BOTTOM BAR (Visible < 768px)
-         ========================================= -->
-        <div class="mobile-bottom-bar">
-            <div class="appointment-banner">For Site Visit, Appointment Compulsory</div>
-            <div class="action-buttons">
-                <a href="#" class="btn-call dynamic-call">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-                    </svg>
-                    Call Now
-                </a>
-                <a href="#contact" class="btn-enquire">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-                    </svg>
-                    Enquire
-                </a>
-                <a href="https://wa.me/91<?=str_replace(' ', '', get_val('phone_no', '8237498373'))?>?text=I'm interested in Siyara Vista Kalyan. Please send details." target="_blank" class="btn-whatsapp dynamic-wa">
-                    <svg viewBox="0 0 24 24">
-                        <path
-                            d="M12.031 21c-1.566 0-3.088-.42-4.425-1.217L2 21.056l1.32-5.466A9.957 9.957 0 012.046 11c0-5.514 4.486-10 10-10s10 4.486 10 10-4.485 10-9.985 10h-.03zM7.55 18.06c1.334.79 2.87 1.21 4.45 1.21 4.565 0 8.28-3.715 8.28-8.28S16.565 2.71 12 2.71c-4.566 0-8.28 3.715-8.28 8.28 0 1.636.452 3.22 1.306 4.606l-.688 2.846 2.912-.693zm8.796-3.805c-.477-.24-2.825-1.395-3.264-1.554-.44-.16-.76-.24-1.14.32-.38.56-1.236 1.554-1.515 1.873-.28.32-.56.36-1.038.12-.477-.24-2.02-.746-3.847-2.38-.142-.127-.58-.564-.81-1.018-.23-.454-.025-.7.214-.94.215-.216.477-.56.716-.84.24-.28.32-.477.478-.8.16-.32.08-.6-.04-.84-.12-.24-1.14-2.753-1.56-3.77-.412-.99-.83-.858-1.14-.874-.28-.013-.6-.016-.92-.016-.32 0-.84.12-1.278.6-.44.48-1.677 1.638-1.677 3.993 0 2.356 1.717 4.634 1.956 4.954.24.32 3.376 5.156 8.18 7.23 1.14.492 2.032.785 2.727 1.006 1.145.365 2.188.313 3.01.19 1.18-.178 3.633-1.485 4.143-2.92.51-1.436.51-2.666.358-2.92-.15-.256-.55-.416-1.028-.656z" />
-                    </svg>
-                    WhatsApp
-                </a>
-            </div>
-        </div>
-
-        <!-- Lightbox Modal -->
-        <div id="lightbox" class="lightbox-overlay">
-            <span class="lb-close" id="close-lb">&times;</span>
-            <div class="lb-nav">
-                <button class="lb-btn" id="prev-lb">&#10094;</button>
-                <button class="lb-btn" id="next-lb">&#10095;</button>
-            </div>
-            <img class="lightbox-content" id="lb-img" src="" alt="Gallery Image">
-        </div>
-
-    <script>
-        // Use PHP to inject dynamic values where needed for JS (like phone links)
-        const currentPhone = "<?=get_val('phone_no', '8237498373')?>";
-        const cleanPhone = currentPhone.replace(/\s/g, '');
-        document.querySelectorAll('.dynamic-call').forEach(el => el.href = 'tel:+91' + cleanPhone);
-        document.querySelectorAll('.contact-number').forEach(el => el.textContent = '+91 ' + currentPhone);
-        document.querySelectorAll('.dynamic-wa').forEach(el => el.href = 'https://wa.me/91' + cleanPhone + '?text=I\'m interested in Siyara Vista Kalyan. Please send details.');
-    </script>
 </body>
-
 </html>

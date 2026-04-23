@@ -1,6 +1,6 @@
 <?php
 /**
- * Lead Viewer for Delta Greenville
+ * Lead Viewer for Arihant City Kalyan Bhiwandi
  * Protected by password "Baba@369369"
  */
 
@@ -38,7 +38,7 @@ $is_logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delta Greenville | Lead Panel</title>
+    <title>Arihant City | Lead Panel</title>
     <style>
         :root {
             --primary: #0a4d2e;

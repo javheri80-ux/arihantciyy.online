@@ -1,10 +1,23 @@
 <?php
+// Enable error reporting to help diagnose any localhost issues
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $jsonFile = 'data.json';
 $imageDir = 'images/';
 
 if (!file_exists($imageDir)) { mkdir($imageDir, 0777, true); }
 
-$data = json_decode(file_get_contents($jsonFile), true);
+if (!file_exists($jsonFile)) {
+    file_put_contents($jsonFile, json_encode([]));
+}
+
+$raw_data = file_get_contents($jsonFile);
+$data = json_decode($raw_data, true);
+
+// Fallback for null data to prevent PHP 8 errors
+if (!is_array($data)) { $data = []; }
+
 $msg = "";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -67,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
 <div class="container">
-    <h1>Manage Website Content <a href="index.html" target="_blank">View Live Site ⭧</a></h1>
+    <h1>Manage Website Content <a href="index.php" target="_blank">View Live Site ⭧</a></h1>
     <?php if($msg) echo "<div class='alert'>$msg</div>"; ?>
 
     <form method="POST" enctype="multipart/form-data">

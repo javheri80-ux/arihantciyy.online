@@ -55,6 +55,7 @@ const template = (title, slug) => `<!DOCTYPE html>
 <body>
     <header>
         <h2 style="margin: 0 0 10px 0;">Delta Greenville Thane West</h2>
+        <h2 style="margin: 0 0 10px 0;">Arihant City Kalyan Bhiwandi</h2>
         <a href="../index.html">← Back to Main Website</a>
     </header>
     <div class="container">
@@ -64,10 +65,10 @@ const template = (title, slug) => `<!DOCTYPE html>
                 <p>Welcome to our comprehensive overview focusing on <strong>${title}</strong>. Thane has rapidly transformed into one of the most sought-after residential destinations, combining a rich green environment with spectacular urban infrastructure. If you are specifically searching for ${title.toLowerCase()}, then understanding the local real estate dynamics and choosing the right developer is crucial.</p>
                 
                 <h2>Why is Thane West Ideal for ${title}?</h2>
-                <p>Investing here means unparalleled access to top schools, massive retail hubs like Viviana Mall, and advanced healthcare like Jupiter Hospital. Those looking for ${title.toLowerCase()} will find that Delta Greenville offers an exceptional balance of price, location, and luxury lifestyle. Our carefully curated living spaces are designed entirely around your needs.</p>
+                <p>Investing here means unparalleled access to top schools and massive retail hubs. Those looking for ${title.toLowerCase()} will find that Arihant City offers an exceptional balance of price, location, and luxury lifestyle.</p>
 
-                <h2>What Makes Delta Greenville Stand Out?</h2>
-                <p>Finding ${title.toLowerCase()} that also guarantees high-quality construction and timely delivery can be challenging. Delta Greenville bridges this gap by offering:</p>
+                <h2>What Makes Arihant City Stand Out?</h2>
+                <p>Finding ${title.toLowerCase()} that also guarantees high-quality construction and timely delivery can be challenging. Arihant City bridges this gap by offering:</p>
                 <ul>
                     <li><strong>Strategic Location:</strong> Excellent connectivity to the Eastern Express Highway and upcoming metro lines.</li>
                     <li><strong>World-Class Amenities:</strong> Infinity pool, state-of-the-art gymnasium, grand banquet, and dedicated kids' play areas.</li>

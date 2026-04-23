@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // 3. Send Mail (Optional/Backup)
     $to = "javheri80@gmail.com";
-    $subject = "New Lead: Delta Greenville";
+    $subject = "New Lead: Arihant City Kalyan Bhiwandi";
     $message = "New lead received:\nName: $name\nPhone: $phone\nEmail: $email\nConfig: $config\nDate: $date";
     $headers = "From: leads@deltathane.com";
     @mail($to, $subject, $message, $headers);
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo json_encode(["status" => "success"]);
     exit();
 } else {
-    header("Location: index.html");
+    header("Location: index.php");
     exit();
 }
 ?>
