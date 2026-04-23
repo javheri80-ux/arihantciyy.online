@@ -18,6 +18,7 @@ function get_val($key, $fallback = '') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="BqrJA3zOXY1BMJfMDregV83Q_vmVHwKuDiYp21c-v24" />
     <title>Arihant City Kalyan Bhiwandi | 1, 2, 3 & 4 BHK Flats in Thane Project</title>
 
     <!-- ================= UPDATED SEO META TAGS ================= -->
