@@ -5,4 +5,4 @@ Disallow: /data.json
 Disallow: /contact.php
 Disallow: /baba-leads.php
 
-Sitemap: https://arihantcity.site/sitemap.xml
+Sitemap: https://www.arihantcity.site/sitemap.xml

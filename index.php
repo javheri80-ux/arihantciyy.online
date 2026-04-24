@@ -34,17 +34,17 @@ function get_val($key, $fallback = '') {
     <meta property="og:title" content="Arihant City Kalyan Bhiwandi | Luxury 1, 2, 3 & 4 BHK" />
     <meta property="og:description"
         content="Elevate your lifestyle at Arihant City Kalyan Bhiwandi. High-rise living on Kalyan Bypass with world-class amenities and premium residences." />
-    <meta property="og:url" content="https://arihantcity.site/" />
-    <meta property="og:image" content="https://arihantcity.site/images/favicon.jpg" />
+    <meta property="og:url" content="https://www.arihantcity.site/" />
+    <meta property="og:image" content="https://www.arihantcity.site/images/favicon.jpg" />
     <meta property="article:published_time" content="2026-04-17T09:05:09+05:30" />
     <meta property="article:modified_time" content="2026-04-17T10:15:27+05:30" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Arihant City Kalyan Bhiwandi - Premium Real Estate on Kalyan Bypass" />
     <meta name="twitter:description"
         content="Explore Arihant City Kalyan Bhiwandi. Enjoy high-rise living with seamless connectivity and premium amenities." />
-    <meta name="twitter:image" content="https://arihantcity.site/images/favicon.jpg" />
-    <link rel="shortcut icon" type="image/jpg" href="https://arihantcity.site/images/favicon.jpg" />
-    <link rel="canonical" href="https://arihantcity.site/" />
+    <meta name="twitter:image" content="https://www.arihantcity.site/images/favicon.jpg" />
+    <link rel="shortcut icon" type="image/jpg" href="https://www.arihantcity.site/images/favicon.jpg" />
+    <link rel="canonical" href="https://www.arihantcity.site/" />
     <!-- ====================================================================== -->
 
     <style>
