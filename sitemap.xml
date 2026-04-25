@@ -4,104 +4,69 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://www.arihantcity.site/</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/privacy-policy.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/terms-and-conditions.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/disclaimer.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/thank-you.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/index.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/1bhk-flats-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/1bhk-for-sale-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/2bhk-flats-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/2bhk-for-sale-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/affordable-flats-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/arihant-city-lifestyle-features.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/budget-homes-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/future-of-bhiwandi-real-estate.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/metro-line-5-connectivity-guide.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/new-projects-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/ready-to-move-flats-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/residential-projects-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/under-construction-flats-in-thane.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.arihantcity.site/blog/why-invest-in-arihant-city.html</loc>
-    <lastmod>2026-04-24T06:55:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.arihantcity.site/</loc>
+  <lastmod>2026-04-24T05:07:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/index.php</loc>
+  <lastmod>2026-04-24T05:07:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/blog/1bhk-flats-in-thane.html</loc>
+  <lastmod>2026-04-24T05:07:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/blog/residential-projects-in-thane.html</loc>
+  <lastmod>2026-04-24T05:07:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/blog/affordable-flats-in-thane.html</loc>
+  <lastmod>2026-04-24T05:07:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/blog/future-of-bhiwandi-real-estate.html</loc>
+  <lastmod>2026-04-24T05:07:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/blog/index.html</loc>
+  <lastmod>2026-04-24T05:07:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/disclaimer.html</loc>
+  <lastmod>2026-04-24T05:07:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/privacy-policy.html</loc>
+  <lastmod>2026-04-24T05:07:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/terms-and-conditions.html</loc>
+  <lastmod>2026-04-24T05:07:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/index.html</loc>
+  <lastmod>2026-04-24T05:07:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.arihantcity.site/blog/metro-line-5-connectivity-guide.html</loc>
+  <lastmod>2026-04-24T05:07:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>

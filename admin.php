@@ -151,6 +151,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <div><label>Floor Plan 2 Image:</label><input type="file" name="fp2_img" accept="image/*"><img src="<?= $data['fp2_img'] ?>" class="preview"></div>
                 
                 <div class="full"><label>Gallery Title:</label><input type="text" name="gal_title" value="<?= htmlspecialchars($data['gal_title']) ?>"></div>
+                <div class="full"><label>Gallery Description:</label><textarea name="gal_desc" rows="2"><?= htmlspecialchars($data['gal_desc']) ?></textarea></div>
                 <div><label>Gallery 1 Image:</label><input type="file" name="gal1_img" accept="image/*"><img src="<?= $data['gal1_img'] ?>" class="preview"></div>
                 <div><label>Gallery 2 Image:</label><input type="file" name="gal2_img" accept="image/*"><img src="<?= $data['gal2_img'] ?>" class="preview"></div>
             </div>
