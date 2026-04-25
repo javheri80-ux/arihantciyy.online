@@ -409,49 +409,116 @@ function get_val($key, $fallback = '') {
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
             z-index: 2000;
             justify-content: center;
             align-items: center;
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(8px);
         }
 
         .modal-content {
             background: var(--white);
-            padding: 30px;
-            border-radius: 10px;
+            border-radius: 15px;
             width: 90%;
             max-width: 450px;
             position: relative;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            animation: modalFadeIn 0.3s ease-out;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            animation: modalFadeIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            overflow: hidden;
+            border: 1px solid rgba(168, 140, 57, 0.3);
         }
 
         @keyframes modalFadeIn {
-            from { transform: translateY(-20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, var(--primary-maroon), #7a0220);
+            padding: 25px 30px;
+            color: var(--white);
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            font-size: 1.6rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--white);
+        }
+
+        .modal-header p {
+            margin: 5px 0 0;
+            font-size: 0.85rem;
+            opacity: 0.9;
+            color: var(--white);
+        }
+
+        .modal-body {
+            padding: 30px;
         }
 
         .modal-close {
             position: absolute;
-            top: 10px;
+            top: 15px;
             right: 15px;
-            font-size: 24px;
+            font-size: 20px;
             cursor: pointer;
-            color: var(--primary-maroon);
-            font-weight: bold;
+            color: rgba(255,255,255,0.7);
+            transition: 0.3s;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
         }
 
-        .modal-content h2 {
-            margin-bottom: 10px;
-            color: var(--primary-maroon);
-            font-size: 1.5rem;
+        .modal-close:hover {
+            color: var(--white);
+            background: rgba(255,255,255,0.2);
+            transform: rotate(90deg);
         }
 
-        .modal-content p {
-            margin-bottom: 20px;
-            font-size: 0.9rem;
-            color: var(--gray-text);
+        .modal-body input, .modal-body select {
+            border: 1px solid #e1e1e1;
+            background: #f9f9f9;
+            margin-bottom: 15px;
+            padding: 14px 15px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .modal-body input:focus, .modal-body select:focus {
+            border-color: var(--accent-gold);
+            background: var(--white);
+            outline: none;
+            box-shadow: 0 0 10px rgba(168, 140, 57, 0.1);
+        }
+
+        .modal-submit-btn {
+            background: linear-gradient(to right, var(--accent-gold), #c4a75e);
+            color: var(--primary-maroon) !important;
+            width: 100%;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: 0.4s;
+            box-shadow: 0 4px 15px rgba(168, 140, 57, 0.3);
+            margin-top: 10px;
+        }
+
+        .modal-submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(168, 140, 57, 0.4);
+            filter: brightness(1.1);
         }
     </style>
 </head>
@@ -635,20 +702,25 @@ function get_val($key, $fallback = '') {
     <!-- Price Modal -->
     <div class="modal-overlay" id="priceModal">
         <div class="modal-content">
-            <span class="modal-close" id="closeModal">&times;</span>
-            <h2>Enquire for Price</h2>
-            <p>Please fill out the form below to receive the complete price list and special offers.</p>
-            <form action="contact.php" method="POST">
-                <input type="text" name="name" placeholder="Full Name" required>
-                <input type="tel" name="phone" placeholder="Mobile Number" required>
-                <select name="config">
-                    <option value="1BHK">1 BHK</option>
-                    <option value="2BHK">2 BHK</option>
-                    <option value="3BHK">3 BHK</option>
-                    <option value="4BHK">4 BHK</option>
-                </select>
-                <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Request Price Details</button>
-            </form>
+            <div class="modal-header">
+                <span class="modal-close" id="closeModal">&times;</span>
+                <h2>Get Best Price</h2>
+                <p>Register for exclusive offers & pricing</p>
+            </div>
+            <div class="modal-body">
+                <form action="contact.php" method="POST">
+                    <input type="text" name="name" placeholder="Your Full Name" required>
+                    <input type="tel" name="phone" placeholder="Your Mobile Number" required>
+                    <select name="config">
+                        <option value="" disabled selected>Select Configuration</option>
+                        <option value="1BHK">1 BHK Luxury</option>
+                        <option value="2BHK">2 BHK Elite</option>
+                        <option value="3BHK">3 BHK Platinum</option>
+                        <option value="4BHK">4 BHK Premium</option>
+                    </select>
+                    <button type="submit" class="modal-submit-btn">Unlock Price Details</button>
+                </form>
+            </div>
         </div>
     </div>
 
