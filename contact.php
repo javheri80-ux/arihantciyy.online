@@ -39,9 +39,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: leads@deltathane.com";
     @mail($to, $subject, $message, $headers);
 
-    // 5. Return JSON Response
-    header('Content-Type: application/json');
-    echo json_encode(["status" => "success"]);
+    // 5. Redirect to Thank You Page
+    header("Location: thank-you.html");
     exit();
 } else {
     header("Location: index.php");
