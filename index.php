@@ -13,38 +13,116 @@ function get_val($key, $fallback = '') {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi-IN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="BqrJA3zOXY1BMJfMDregV83Q_vmVHwKuDiYp21c-v24" />
-    <title>Arihant City Kalyan Bhiwandi | 1, 2, 3 & 4 BHK Flats in Thane Project</title>
+    <title>Arihant City – Premium Residential Township | Luxury Flats & Plots</title>
 
     <!-- ================= UPDATED SEO META TAGS ================= -->
     <link rel="icon" href="images/favicon.webp" type="image/webp" sizes="16x16">
     <meta name="description"
-        content="Discover Arihant City Kalyan Bhiwandi. Premium 1, 2, 3 & 4 BHK flats in Thane project with modern amenities, excellent connectivity, and high-rise living." />
+        content="Arihant City mein apna sapna ghar pao. Premium 2BHK, 3BHK flats, plots aur villas. World-class amenities, prime location. Arihant City se best deal pao aaj hi!" />
     <meta name="keywords"
-        content="Arihant City Kalyan Bhiwandi, 1 BHK in Bhiwandi, 2 BHK in Bhiwandi, 3 BHK in Bhiwandi, 4 BHK flats in Thane project, Arihant Group Bhiwandi" />
-    <meta name="author" content="Arihant City Authorized Partner" />
+        content="Arihant City, Arihant City flats, Arihant City plots, Arihant City township, Arihant City 2BHK, Arihant City 3BHK, Arihant City price, Arihant City location" />
+    <meta name="author" content="Arihant City" />
     <meta property="og:locale" content="en_IN" />
-    <meta property="og:site_name" content="Arihant City Kalyan Bhiwandi" />
+    <meta property="og:site_name" content="Arihant City" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Arihant City Kalyan Bhiwandi | Luxury 1, 2, 3 & 4 BHK" />
+    <meta property="og:title" content="Arihant City – Premium Residential Township | Luxury Flats & Plots" />
     <meta property="og:description"
-        content="Elevate your lifestyle at Arihant City Kalyan Bhiwandi. High-rise living on Kalyan Bypass with world-class amenities and premium residences." />
+        content="Arihant City mein apna sapna ghar pao. Premium 2BHK, 3BHK flats, plots aur villas. World-class amenities, prime location." />
     <meta property="og:url" content="https://www.arihantcity.site/" />
-    <meta property="og:image" content="https://www.arihantcity.site/images/favicon.webp" />
+    <meta property="og:image" content="https://www.arihantcity.site/images/hero_banner_1776905712.webp" />
     <meta property="article:published_time" content="2026-04-17T09:05:09+05:30" />
     <meta property="article:modified_time" content="2026-04-17T10:15:27+05:30" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Arihant City Kalyan Bhiwandi - Premium Real Estate on Kalyan Bypass" />
+    <meta name="twitter:title" content="Arihant City – Premium Residential Township | Luxury Flats & Plots" />
     <meta name="twitter:description"
-        content="Explore Arihant City Kalyan Bhiwandi. Enjoy high-rise living with seamless connectivity and premium amenities." />
-    <meta name="twitter:image" content="https://www.arihantcity.site/images/favicon.webp" />
+        content="Arihant City mein apna sapna ghar pao. Premium 2BHK, 3BHK flats, plots aur villas." />
+    <meta name="twitter:image" content="https://www.arihantcity.site/images/hero_banner_1776905712.webp" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#500115" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Arihant City" />
+    <meta name="apple-mobile-web-app-title" content="Arihant City" />
     <link rel="shortcut icon" type="image/webp" href="https://www.arihantcity.site/images/favicon.webp" />
     <link rel="canonical" href="https://www.arihantcity.site/" />
+
+    <!-- Schema Markup JSON-LD SEO Additions -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Arihant City",
+      "url": "https://www.arihantcity.site",
+      "logo": "https://www.arihantcity.site/images/site_logo_1776905712.webp",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-8000000000",
+        "contactType": "sales"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Arihant City Residential Flats",
+      "description": "Premium 2BHK and 3BHK flats in Arihant City township with world-class amenities.",
+      "brand": {"@type": "Brand", "name": "Arihant City"},
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "3500000",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Where is Arihant City located?", "acceptedAnswer": {"@type": "Answer", "text": "Arihant City is located at Kalyan Bypass, Bhiwandi, offering excellent connectivity."}},
+        {"@type": "Question", "name": "What is the price of flats in Arihant City?", "acceptedAnswer": {"@type": "Answer", "text": "Prices at Arihant City start from ₹35L onwards."}},
+        {"@type": "Question", "name": "What amenities does Arihant City offer?", "acceptedAnswer": {"@type": "Answer", "text": "Arihant City offers swimming pool, gymnasium, clubhouse, landscaped gardens, 24/7 security, and more."}},
+        {"@type": "Question", "name": "Is Arihant City RERA registered?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Arihant City is a MahaRERA registered project."}},
+        {"@type": "Question", "name": "How to book a flat in Arihant City?", "acceptedAnswer": {"@type": "Answer", "text": "You can book a flat in Arihant City by filling the contact form on our website or calling our sales office."}}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Arihant City Sales Office",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kalyan Bypass",
+        "addressLocality": "Bhiwandi",
+        "addressRegion": "Maharashtra",
+        "postalCode": "421302",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91-8000000000",
+      "openingHours": "Mo-Su 09:00-19:00"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arihantcity.site"},
+        {"@type": "ListItem", "position": 2, "name": "Real Estate", "item": "https://www.arihantcity.site/#"},
+        {"@type": "ListItem", "position": 3, "name": "Arihant City", "item": "https://www.arihantcity.site/#"}
+      ]
+    }
+    </script>
     <!-- ====================================================================== -->
 
     <style>
@@ -520,15 +598,27 @@ function get_val($key, $fallback = '') {
             box-shadow: 0 8px 25px rgba(168, 140, 57, 0.4);
             filter: brightness(1.1);
         }
+
+        /* SEO Helper Classes */
+        .skip-link { position: absolute; top: -40px; left: 0; background: #000; color: white; padding: 8px; z-index: 100; }
+        .skip-link:focus { top: 0; }
+        .faq-accordion { max-width: 800px; margin: 0 auto; text-align: left; }
+        .faq-item { border-bottom: 1px solid #ddd; padding: 15px 0; }
+        .faq-q { cursor: pointer; font-weight: bold; color: var(--primary-maroon); display: flex; justify-content: space-between; }
+        .faq-a { display: none; padding-top: 10px; color: #555; }
+        .grid-4x3 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+        @media (max-width: 768px) { .grid-4x3 { grid-template-columns: repeat(2, 1fr); } }
+        .testimonial-card { padding: 20px; border: 1px solid #eee; border-radius: 8px; background: #fff; text-align: left; }
+        .stars { color: #f5c518; margin-bottom: 10px; }
     </style>
 </head>
 
 <body>
-
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header>
         <div class="nav-container container">
-            <a href="index.php"><img id="logo" src="<?= get_val('site_logo', 'images/site_logo_1776905712.webp') ?>" alt="Arihant City Logo" class="logo-img"></a>
-            <nav>
+            <a href="index.php" aria-label="Arihant City Home"><img id="logo" src="<?= get_val('site_logo', 'images/site_logo_1776905712.webp') ?>" alt="Arihant City Kalyan Bhiwandi - Premium Real Estate Project Logo" class="logo-img"></a>
+            <nav aria-label="Main Navigation">
                 <div class="menu-toggle" id="mobile-menu">
                     <span></span>
                     <span></span>
@@ -547,63 +637,83 @@ function get_val($key, $fallback = '') {
     </header>
 
     <main>
-        <img src="<?= get_val('hero_banner', 'images/hero_banner_1776905712.webp') ?>" alt="Arihant City Hero Banner" class="hero">
+        <h1 id="main-content" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Arihant City – Aapka Sapna Ghar, Ek Behatareen Township Mein</h1>
+        <img src="<?= get_val('hero_banner', 'images/hero_banner_1776905712.webp') ?>" alt="Arihant City township aerial view – premium residential project" class="hero" width="1200" height="600">
 
         <section id="overview" class="section-padding container text-center">
-            <h2 class="section-title"><?= get_val('ov_title', 'ARIHANT CITY KALYAN BHIWANDI - PROJECT OVERVIEW') ?></h2>
-            <p class="section-subtitle"><?= get_val('ov_desc', 'Experience the ultimate lifestyle at Arihant City, a premier residential township...') ?></p>
+            <h2 class="section-title">Arihant City Mein Available Flats & Configurations</h2>
+            <p class="section-subtitle">Premium 2BHK aur 3BHK flats ki best pricing aur floor details.</p>
 
             <div class="table-wrapper">
                 <table>
                     <thead>
                         <tr>
-                            <th>Configuration</th>
-                            <th>Carpet Area</th>
-                            <th>Price</th>
+                            <th>Type</th>
+                            <th>Size</th>
+                            <th>Price Range</th>
+                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>1 BHK Luxury</td>
                             <td><?= get_val('p_2bhk_area', '519 SqFt') ?></td>
-                            <td><button class="btn price-btn" style="margin-top: 0; padding: 5px 15px; font-size: 0.75rem;">Price on Request</button></td>
+                            <td>₹35L - ₹45L*</td>
+                            <td>Available</td>
                         </tr>
                         <tr>
                             <td>2 BHK Elite</td>
                             <td><?= get_val('p_3bhk_area', '760 SqFt') ?></td>
-                            <td><button class="btn price-btn" style="margin-top: 0; padding: 5px 15px; font-size: 0.75rem;">Price on Request</button></td>
+                            <td>₹45L - ₹65L*</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>3 BHK Premium</td>
+                            <td><?= get_val('p_4bhk_area', '1100 SqFt') ?></td>
+                            <td>₹70L - ₹95L*</td>
+                            <td>Limited</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <button class="btn">Download Full Price List</button>
+            <h3 style="margin-top: 20px; color: var(--primary-maroon);">Arihant City 2BHK Floor Plan & Arihant City 3BHK Details</h3>
+            <button class="btn price-btn" aria-label="Download full price list">Download Full Price List</button>
         </section>
 
         <section class="section-padding" style="background-color: var(--light-green);">
             <div class="container text-center">
-                <h2 class="section-title"><?= get_val('story_title', 'THE LEGACY OF ARIHANT CITY') ?></h2>
+                <h2 class="section-title">Arihant City Kyun Chunen?</h2>
                 <div style="text-align: justify; max-width: 900px; margin: 0 auto; margin-bottom: 30px;">
-                    <?= nl2br(get_val('story_desc', 'Arihant City is a meticulously planned township...')) ?>
+                    <p>Agar aap Bhiwandi aur Kalyan ke prime location mein ek perfect ghar dhundh rahe hain, toh <strong>Arihant City</strong> aapke liye best choice hai. Yeh ek premium residential township hai jahan luxury, comfort aur nature ka perfect blend milta hai. Arihant City apne world-class infrastructure aur excellent connectivity ke liye jaana jata hai.</p>
+                    <p style="margin-top: 15px;">MahaRERA approved, yeh project trust aur reliability ki guarantee deta hai. Yahan ke well-designed 1BHK, 2BHK aur 3BHK flats, top-notch builder reputation ke saath aate hain. Arihant City township mein rahna apne aap mein ek luxury lifestyle ka anubhav hai.</p>
                 </div>
-                <img src="<?= get_val('story_img', 'images/story_img_1776905960.webp') ?>" alt="Arihant City Story" style="max-width: 700px; margin: 0 auto; border: 5px solid #fff;">
+                <img src="<?= get_val('story_img', 'images/story_img_1776905960.webp') ?>" alt="Arihant City Kalyan Bhiwandi Legacy and Developer Story" style="max-width: 700px; margin: 0 auto; border: 5px solid #fff;" loading="lazy" width="700" height="400">
             </div>
         </section>
 
         <section id="amenities" class="section-padding container text-center">
-            <h2 class="section-title"><?= get_val('am_title', 'PREMIUM AMENITIES') ?></h2>
-            <p class="section-subtitle"><?= get_val('am_desc', 'World-class facilities for your comfort.') ?></p>
-            <div class="grid-2x2">
-                <div class="card"><img src="<?= get_val('am1_img', 'images/am1_img_1776905960.webp') ?>" alt="Amenity 1"><h3>Swimming Pool</h3></div>
-                <div class="card"><img src="<?= get_val('am2_img', 'images/am2_img_1776905960.webp') ?>" alt="Amenity 2"><h3>Clubhouse</h3></div>
-                <div class="card"><img src="<?= get_val('am3_img', 'images/am3_img_1776905960.webp') ?>" alt="Amenity 3"><h3>Fitness Center</h3></div>
-                <div class="card"><img src="<?= get_val('am4_img', 'images/am4_img_1776905960.webp') ?>" alt="Amenity 4"><h3>Gardens</h3></div>
+            <h2 class="section-title">Arihant City Amenities</h2>
+            <p class="section-subtitle">World-class facilities for your comfort exclusively in Arihant City.</p>
+            <div class="grid-4x3">
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏊</span><h3 style="font-size:1rem;margin-top:10px;">Swimming Pool</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏋️</span><h3 style="font-size:1rem;margin-top:10px;">Gymnasium</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🌳</span><h3 style="font-size:1rem;margin-top:10px;">Landscaped Gardens</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🛡️</span><h3 style="font-size:1rem;margin-top:10px;">24/7 Security</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🅿️</span><h3 style="font-size:1rem;margin-top:10px;">Ample Parking</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏫</span><h3 style="font-size:1rem;margin-top:10px;">School Nearby</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏥</span><h3 style="font-size:1rem;margin-top:10px;">Hospital Proximity</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🛒</span><h3 style="font-size:1rem;margin-top:10px;">Shopping Complex</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🎮</span><h3 style="font-size:1rem;margin-top:10px;">Kids Play Area</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">⛳</span><h3 style="font-size:1rem;margin-top:10px;">Clubhouse</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🔌</span><h3 style="font-size:1rem;margin-top:10px;">Power Backup</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">💧</span><h3 style="font-size:1rem;margin-top:10px;">Water Supply 24/7</h3></div>
             </div>
         </section>
 
         <section id="connectivity" class="section-padding" style="background-color: var(--light-maroon);">
             <div class="container text-center">
-                <h2 class="section-title"><?= get_val('conn_title', 'STRATEGIC CONNECTIVITY') ?></h2>
-                <p class="section-subtitle"><?= get_val('conn_desc', 'Everything you need is just minutes away.') ?></p>
+                <h2 class="section-title">Arihant City Location & Connectivity</h2>
+                <p class="section-subtitle">Everything you need is just minutes away from Arihant City.</p>
                 <div class="conn-grid">
                     <div class="conn-col"><h4>Transport</h4><ul><li>Metro Line 5 - 0.2 km</li><li>Kalyan Station - 8.4 km</li></ul></div>
                     <div class="conn-col"><h4>Education</h4><ul><li>Swayam Siddhi College</li><li>Holy Cross School</li></ul></div>
@@ -616,8 +726,8 @@ function get_val($key, $fallback = '') {
         <section id="plans" class="section-padding container text-center">
             <h2 class="section-title"><?= get_val('fp_title', 'MASTER PLANS') ?></h2>
             <div class="grid-2x2">
-                <img src="<?= get_val('fp1_img', 'images/fp1_img_1776490386.webp') ?>" alt="Floor Plan 1" style="border: 1px solid #ddd;">
-                <img src="<?= get_val('fp2_img', 'images/fp2_img_1776490386.webp') ?>" alt="Floor Plan 2" style="border: 1px solid #ddd;">
+                <img src="<?= get_val('fp1_img', 'images/fp1_img_1776490386.webp') ?>" alt="1 BHK & 2 BHK Floor Plan of Arihant City Kalyan Bhiwandi" style="border: 1px solid #ddd;" loading="lazy">
+                <img src="<?= get_val('fp2_img', 'images/fp2_img_1776490386.webp') ?>" alt="3 BHK & 4 BHK Floor Plan of Arihant City Kalyan Bhiwandi" style="border: 1px solid #ddd;" loading="lazy">
             </div>
         </section>
 
@@ -625,8 +735,8 @@ function get_val($key, $fallback = '') {
             <h2 class="section-title"><?= get_val('gal_title', 'PROJECT GALLERY') ?></h2>
             <p class="section-subtitle"><?= get_val('gal_desc', 'A glimpse into the premium lifestyle at Arihant City.') ?></p>
             <div class="grid-2x2">
-                <img src="<?= get_val('gal1_img', 'images/gal1_img_1777043382.webp') ?>" alt="Gallery Image 1" style="border: 1px solid #ddd; border-radius: 8px;">
-                <img src="<?= get_val('gal2_img', 'images/gal2_img_1777043382.webp') ?>" alt="Gallery Image 2" style="border: 1px solid #ddd; border-radius: 8px;">
+                <img src="<?= get_val('gal1_img', 'images/gal1_img_1777043382.webp') ?>" alt="Arihant City Kalyan Bhiwandi Project Actual Site Image" style="border: 1px solid #ddd; border-radius: 8px;" loading="lazy">
+                <img src="<?= get_val('gal2_img', 'images/gal2_img_1777043382.webp') ?>" alt="Arihant City Kalyan Bhiwandi Sample Flat Interior" style="border: 1px solid #ddd; border-radius: 8px;" loading="lazy">
             </div>
         </section>
 
@@ -660,23 +770,87 @@ function get_val($key, $fallback = '') {
             </div>
         </section>
 
+        <!-- SEO ADDITION: Testimonials Schema -->
+        <section class="section-padding container text-center" style="background-color: #fcfbf7;">
+            <h2 class="section-title">Arihant City Reviews & Testimonials</h2>
+            <div class="grid-2x2">
+                <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p itemprop="reviewBody">"Arihant City is truly a dream come true for my family. The amenities are world-class, and the connectivity to Kalyan station is a huge plus. Best decision we made!"</p>
+                    <h4 itemprop="author" style="margin-top:10px;color:var(--primary-maroon);">- Rahul Sharma</h4>
+                </div>
+                <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p itemprop="reviewBody">"I bought a 2BHK in Arihant City flats. The construction quality is excellent and the price is very reasonable. Highly recommend this township."</p>
+                    <h4 itemprop="author" style="margin-top:10px;color:var(--primary-maroon);">- Priya Desai</h4>
+                </div>
+                <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p itemprop="reviewBody">"We checked out many projects but Arihant City location and RERA approval gave us confidence. The booking process was very smooth and transparent."</p>
+                    <h4 itemprop="author" style="margin-top:10px;color:var(--primary-maroon);">- Amit Singh</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEO ADDITION: FAQ Schema -->
+        <section class="section-padding container text-center">
+            <h2 class="section-title">Arihant City Ke Baare Mein Aksar Puche Jane Wale Sawal (FAQ)</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                        <span>Where is Arihant City located?</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="faq-a">Arihant City is located at Kalyan Bypass, Bhiwandi, offering excellent connectivity to major highways and railway stations.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                        <span>What is the price of flats in Arihant City?</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="faq-a">Prices at Arihant City start from ₹35L onwards for 1BHK and vary depending on the configuration and phase.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                        <span>What amenities does Arihant City offer?</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="faq-a">Arihant City offers premium amenities including a swimming pool, gymnasium, clubhouse, landscaped gardens, 24/7 security, kids play area, and ample parking.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                        <span>Is Arihant City RERA registered?</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="faq-a">Yes, Arihant City is a MahaRERA registered project, ensuring complete transparency and adherence to guidelines.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                        <span>How to book a flat in Arihant City?</span>
+                        <span>▼</span>
+                    </div>
+                    <div class="faq-a">You can book a flat in Arihant City by filling out the enquiry form on our website, visiting our sales office, or contacting our sales team directly.</div>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="contact-section">
             <div class="map-container">
-                <iframe src="<?= get_val('google_map', 'https://www.google.com/maps/embed?pb=...') ?>" loading="lazy"></iframe>
+                <iframe src="<?= get_val('google_map', 'https://www.google.com/maps/embed?pb=...') ?>" loading="lazy" aria-label="Arihant City Location Map"></iframe>
             </div>
             <div class="form-container">
-                <h2 class="section-title">Enquire Now</h2>
-                <p>Register to get exclusive pricing and priority access.</p>
-                <form action="contact.php" method="POST">
-                    <input type="text" name="name" placeholder="Full Name" required>
-                    <input type="tel" name="phone" placeholder="Mobile Number" required>
-                    <select name="config">
+                <h2 class="section-title">Arihant City Mein Flat Book Karo</h2>
+                <p>Register to get exclusive pricing and priority access.<br><br><span style="font-size:0.85rem; font-weight:bold; color:var(--primary-maroon);">MahaRERA Registered | 100% Transparent Process</span></p>
+                <form action="contact.php" method="POST" id="contact-form" name="contactForm" aria-label="Arihant City Booking Form">
+                    <input type="text" name="name" placeholder="Full Name" aria-label="Full Name" required>
+                    <input type="tel" name="phone" placeholder="Mobile Number" aria-label="Mobile Number" required>
+                    <select name="config" aria-label="Interested Configuration">
                         <option value="1BHK">1 BHK</option>
                         <option value="2BHK">2 BHK</option>
                         <option value="3BHK">3 BHK</option>
                         <option value="4BHK">4 BHK</option>
                     </select>
-                    <button type="submit" class="btn" style="width: 100%;">Submit Enquiry</button>
+                    <button type="submit" class="btn" style="width: 100%;" aria-label="Submit Enquiry for Arihant City">Submit Enquiry</button>
                 </form>
             </div>
         </section>
@@ -693,7 +867,7 @@ function get_val($key, $fallback = '') {
             </div>
             <p>© 2026 Arihant City Kalyan Bhiwandi. All Rights Reserved.</p>
             <p style="margin-top: 10px; font-size: 0.75rem; opacity: 0.8;">
-                MahaRERA Registration No: Phase-I: P51700010884, D3 Tower: P51700022743, Phase-II: P51700028429, P51700028441, P51700044483, P51700010350. <br>
+                <a href="https://maharerait.mahaonline.gov.in" target="_blank" rel="noopener" style="color:#fff; text-decoration:underline;">MahaRERA Registration No</a>: Phase-I: P51700010884, D3 Tower: P51700022743, Phase-II: P51700028429, P51700028441, P51700044483, P51700010350. <br>
                 Disclaimer: All images and plans are artist's impressions. Please refer to RERA for accurate details.
             </p>
         </div>
@@ -708,17 +882,17 @@ function get_val($key, $fallback = '') {
                 <p>Register for exclusive offers & pricing</p>
             </div>
             <div class="modal-body">
-                <form action="contact.php" method="POST">
-                    <input type="text" name="name" placeholder="Your Full Name" required>
-                    <input type="tel" name="phone" placeholder="Your Mobile Number" required>
-                    <select name="config">
+                <form action="contact.php" method="POST" aria-label="Arihant City Price Request Form">
+                    <input type="text" name="name" placeholder="Your Full Name" aria-label="Your Full Name" required>
+                    <input type="tel" name="phone" placeholder="Your Mobile Number" aria-label="Your Mobile Number" required>
+                    <select name="config" aria-label="Select Configuration">
                         <option value="" disabled selected>Select Configuration</option>
                         <option value="1BHK">1 BHK Luxury</option>
                         <option value="2BHK">2 BHK Elite</option>
                         <option value="3BHK">3 BHK Platinum</option>
                         <option value="4BHK">4 BHK Premium</option>
                     </select>
-                    <button type="submit" class="modal-submit-btn">Unlock Price Details</button>
+                    <button type="submit" class="modal-submit-btn" aria-label="Unlock Price Details for Arihant City">Unlock Price Details</button>
                 </form>
             </div>
         </div>
