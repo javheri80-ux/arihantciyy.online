@@ -775,19 +775,28 @@ function get_val($key, $fallback = '') {
             <h2 class="section-title">Arihant City Reviews & Testimonials</h2>
             <div class="grid-2x2">
                 <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/ApartmentComplex">
+                        <meta itemprop="name" content="Arihant City">
+                    </div>
                     <div class="stars">⭐⭐⭐⭐⭐</div>
                     <p itemprop="reviewBody">"Arihant City is truly a dream come true for my family. The amenities are world-class, and the connectivity to Kalyan station is a huge plus. Best decision we made!"</p>
-                    <h4 itemprop="author" style="margin-top:10px;color:var(--primary-maroon);">- Rahul Sharma</h4>
+                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person" style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Rahul Sharma</span></h4>
                 </div>
                 <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/ApartmentComplex">
+                        <meta itemprop="name" content="Arihant City">
+                    </div>
                     <div class="stars">⭐⭐⭐⭐⭐</div>
                     <p itemprop="reviewBody">"I bought a 2BHK in Arihant City flats. The construction quality is excellent and the price is very reasonable. Highly recommend this township."</p>
-                    <h4 itemprop="author" style="margin-top:10px;color:var(--primary-maroon);">- Priya Desai</h4>
+                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person" style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Priya Desai</span></h4>
                 </div>
                 <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
+                    <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/ApartmentComplex">
+                        <meta itemprop="name" content="Arihant City">
+                    </div>
                     <div class="stars">⭐⭐⭐⭐⭐</div>
                     <p itemprop="reviewBody">"We checked out many projects but Arihant City location and RERA approval gave us confidence. The booking process was very smooth and transparent."</p>
-                    <h4 itemprop="author" style="margin-top:10px;color:var(--primary-maroon);">- Amit Singh</h4>
+                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person" style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Amit Singh</span></h4>
                 </div>
             </div>
         </section>
