@@ -51,6 +51,7 @@ new_head = """<head>
       "@type": "Product",
       "name": "Arihant City Residential Flats",
       "description": "Premium 2BHK and 3BHK flats in Arihant City township with world-class amenities.",
+      "image": "https://www.arihantcity.site/images/hero_banner_1776905712.webp",
       "brand": {"@type": "Brand", "name": "Arihant City"},
       "offers": {
         "@type": "Offer",

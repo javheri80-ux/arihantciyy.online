@@ -1,63 +1,26 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "*.php",
-      "use": "vercel-php@0.7.1"
-    },
-    {
-      "src": "blog/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "images/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "sitemap.xml",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "robots.txt",
-      "use": "@vercel/static"
+  "cleanUrls": true,
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.9.0"
     }
-  ],
-  "routes": [
+  },
+  "rewrites": [
     {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml"
+      "source": "/admin",
+      "destination": "/admin.php"
     },
     {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
+      "source": "/contact",
+      "destination": "/contact.php"
     },
     {
-      "src": "/images/(.*)",
-      "dest": "/images/$1"
+      "source": "/leads",
+      "destination": "/baba-leads.php"
     },
     {
-      "src": "/blog/(.*)",
-      "dest": "/blog/$1"
-    },
-    {
-      "src": "/admin",
-      "dest": "admin.php"
-    },
-    {
-      "src": "/contact",
-      "dest": "contact.php"
-    },
-    {
-      "src": "/leads",
-      "dest": "baba-leads.php"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "index.php"
+      "source": "/",
+      "destination": "/index.php"
     }
   ]
 }
