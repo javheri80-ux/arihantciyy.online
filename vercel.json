@@ -1,6 +1,6 @@
 {
   "functions": {
-    "**/*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
   },
@@ -18,12 +18,12 @@
       "destination": "/api/baba-leads.php"
     },
     {
-      "source": "/",
-      "destination": "/index.php"
+      "source": "/index.php",
+      "destination": "/api/index.php"
     },
     {
       "source": "/((?!api|images|blog|.*\\.html$|.*\\.css$|.*\\.js$|.*\\.webp$|.*\\.png$|.*\\.jpg$|.*\\.ico$|robots\\.txt|sitemap\\.xml).*)",
-      "destination": "/index.php"
+      "destination": "/api/index.php"
     }
   ],
   "headers": [
@@ -35,5 +35,6 @@
     }
   ]
 }
+
 
 
