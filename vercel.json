@@ -4,6 +4,18 @@
       "runtime": "vercel-php@0.6.0"
     }
   },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/api/index.php",
+      "permanent": false
+    },
+    {
+      "source": "/index.php",
+      "destination": "/api/index.php",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/admin",
@@ -16,10 +28,6 @@
     {
       "source": "/leads",
       "destination": "/api/baba-leads.php"
-    },
-    {
-      "source": "/index.php",
-      "destination": "/api/index.php"
     },
     {
       "source": "/((?!api|images|blog|.*\\.html$|.*\\.css$|.*\\.js$|.*\\.webp$|.*\\.png$|.*\\.jpg$|.*\\.ico$|robots\\.txt|sitemap\\.xml).*)",
@@ -35,6 +43,7 @@
     }
   ]
 }
+
 
 
 
