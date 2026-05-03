@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/*.php": {
+    "**/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
   },
@@ -19,11 +19,11 @@
     },
     {
       "source": "/",
-      "destination": "/api/index.php"
+      "destination": "/index.php"
     },
     {
       "source": "/((?!api|images|blog|.*\\.html$|.*\\.css$|.*\\.js$|.*\\.webp$|.*\\.png$|.*\\.jpg$|.*\\.ico$|robots\\.txt|sitemap\\.xml).*)",
-      "destination": "/api/index.php"
+      "destination": "/index.php"
     }
   ],
   "headers": [
@@ -35,4 +35,5 @@
     }
   ]
 }
+
 
