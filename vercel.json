@@ -18,7 +18,7 @@
       "destination": "/api/baba-leads.php"
     },
     {
-      "source": "/((?!images|blog|robots\\.txt|sitemap\\.xml|favicon\\.ico).*)",
+      "source": "/((?!api|images|blog|.*\\.html$|.*\\.css$|.*\\.js$|.*\\.webp$|.*\\.png$|.*\\.jpg$|.*\\.ico$|robots\\.txt|sitemap\\.xml).*)",
       "destination": "/api/index.php"
     }
   ],

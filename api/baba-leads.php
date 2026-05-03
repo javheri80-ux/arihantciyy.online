@@ -1,4 +1,5 @@
 <?php
-// Wrapper for Vercel Serverless - routes to root baba-leads.php
+// Vercel Serverless Function Entry Point
+chdir(__DIR__ . '/..');
 include __DIR__ . '/../baba-leads.php';
 ?>
