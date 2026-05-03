@@ -7,7 +7,8 @@ if (file_exists($data_file)) {
     $data = json_decode(file_get_contents($data_file), true);
 }
 
-function get_val($key, $fallback = '') {
+function get_val($key, $fallback = '')
+{
     global $data;
     return (isset($data[$key]) && !empty($data[$key])) ? $data[$key] : $fallback;
 }
@@ -156,7 +157,7 @@ function get_val($key, $fallback = '') {
             overflow-x: hidden;
             width: 100%;
         }
-        
+
         html {
             overflow-x: hidden;
             width: 100%;
@@ -192,6 +193,7 @@ function get_val($key, $fallback = '') {
             position: relative;
             display: inline-block;
         }
+
         .section-title::after {
             content: '';
             display: block;
@@ -298,8 +300,8 @@ function get_val($key, $fallback = '') {
                 flex-direction: column !important;
                 text-align: center;
                 padding: 20px 0;
-                border-top: 1px solid rgba(255,255,255,0.1);
-                box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
             }
 
             .nav-links.active {
@@ -451,7 +453,7 @@ function get_val($key, $fallback = '') {
             .container {
                 width: 95%;
             }
-            
+
             .section-padding {
                 padding: 40px 0;
             }
@@ -460,7 +462,10 @@ function get_val($key, $fallback = '') {
                 font-size: 1.5rem;
             }
 
-            .grid-2x2, .conn-grid, .comfort-list-grid, .contact-section {
+            .grid-2x2,
+            .conn-grid,
+            .comfort-list-grid,
+            .contact-section {
                 grid-template-columns: 1fr;
                 flex-direction: column;
             }
@@ -474,7 +479,7 @@ function get_val($key, $fallback = '') {
                 border-left: none;
                 border-top: 5px solid var(--accent-gold);
             }
-            
+
             .nav-container {
                 padding: 0 10px;
             }
@@ -501,15 +506,22 @@ function get_val($key, $fallback = '') {
             width: 90%;
             max-width: 450px;
             position: relative;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
             animation: modalFadeIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
             overflow: hidden;
             border: 1px solid rgba(168, 140, 57, 0.3);
         }
 
         @keyframes modalFadeIn {
-            from { transform: scale(0.9); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
         }
 
         .modal-header {
@@ -545,24 +557,25 @@ function get_val($key, $fallback = '') {
             right: 15px;
             font-size: 20px;
             cursor: pointer;
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
             transition: 0.3s;
             width: 30px;
             height: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             border-radius: 50%;
         }
 
         .modal-close:hover {
             color: var(--white);
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.2);
             transform: rotate(90deg);
         }
 
-        .modal-body input, .modal-body select {
+        .modal-body input,
+        .modal-body select {
             border: 1px solid #e1e1e1;
             background: #f9f9f9;
             margin-bottom: 15px;
@@ -571,7 +584,8 @@ function get_val($key, $fallback = '') {
             font-size: 0.95rem;
         }
 
-        .modal-body input:focus, .modal-body select:focus {
+        .modal-body input:focus,
+        .modal-body select:focus {
             border-color: var(--accent-gold);
             background: var(--white);
             outline: none;
@@ -601,16 +615,69 @@ function get_val($key, $fallback = '') {
         }
 
         /* SEO Helper Classes */
-        .skip-link { position: absolute; top: -40px; left: 0; background: #000; color: white; padding: 8px; z-index: 100; }
-        .skip-link:focus { top: 0; }
-        .faq-accordion { max-width: 800px; margin: 0 auto; text-align: left; }
-        .faq-item { border-bottom: 1px solid #ddd; padding: 15px 0; }
-        .faq-q { cursor: pointer; font-weight: bold; color: var(--primary-maroon); display: flex; justify-content: space-between; }
-        .faq-a { display: none; padding-top: 10px; color: #555; }
-        .grid-4x3 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
-        @media (max-width: 768px) { .grid-4x3 { grid-template-columns: repeat(2, 1fr); } }
-        .testimonial-card { padding: 20px; border: 1px solid #eee; border-radius: 8px; background: #fff; text-align: left; }
-        .stars { color: #f5c518; margin-bottom: 10px; }
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: white;
+            padding: 8px;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        .faq-accordion {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+
+        .faq-q {
+            cursor: pointer;
+            font-weight: bold;
+            color: var(--primary-maroon);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .faq-a {
+            display: none;
+            padding-top: 10px;
+            color: #555;
+        }
+
+        .grid-4x3 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-4x3 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .testimonial-card {
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            background: #fff;
+            text-align: left;
+        }
+
+        .stars {
+            color: #f5c518;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -618,7 +685,9 @@ function get_val($key, $fallback = '') {
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <header>
         <div class="nav-container container">
-            <a href="index.php" aria-label="Arihant City Home"><img id="logo" src="<?= get_val('site_logo', 'images/site_logo_1776905712.webp') ?>" alt="Arihant City Kalyan Bhiwandi - Premium Real Estate Project Logo" class="logo-img"></a>
+            <a href="index.php" aria-label="Arihant City Home"><img id="logo"
+                    src="<?= get_val('site_logo', 'images/site_logo_1776905712.webp') ?>"
+                    alt="Arihant City Kalyan Bhiwandi - Premium Real Estate Project Logo" class="logo-img"></a>
             <nav aria-label="Main Navigation">
                 <div class="menu-toggle" id="mobile-menu">
                     <span></span>
@@ -638,12 +707,17 @@ function get_val($key, $fallback = '') {
     </header>
 
     <main>
-        <h1 id="main-content" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Arihant City – Premium Residential Township Mein Aapka Naya Ghar</h1>
-        <img src="<?= get_val('hero_banner', 'images/hero_banner_1776905712.webp') ?>" alt="Arihant City township aerial view – premium residential project" class="hero" width="1200" height="600">
+        <h1 id="main-content" class="visually-hidden"
+            style="position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">
+            Arihant City – Premium Residential Township Mein Aapka Naya Ghar</h1>
+        <img src="<?= get_val('hero_banner', 'images/hero_banner_1776905712.webp') ?>"
+            alt="Arihant City township aerial view – premium residential project" class="hero" width="1200"
+            height="600">
 
         <section id="overview" class="section-padding container text-center">
             <h2 class="section-title">Arihant City Floor Plans & Configurations</h2>
-            <p class="section-subtitle">Bhiwandi ki sabse best township mein luxury 1, 2 aur 3 BHK flats ki pricing details.</p>
+            <p class="section-subtitle">Bhiwandi ki sabse best township mein luxury 1, 2 aur 3 BHK flats ki pricing
+                details.</p>
 
             <div class="table-wrapper">
                 <table>
@@ -677,7 +751,8 @@ function get_val($key, $fallback = '') {
                     </tbody>
                 </table>
             </div>
-            <h3 style="margin-top: 20px; color: var(--primary-maroon);">Check Out Detailed 2BHK & 3BHK Floor Plans In Arihant City</h3>
+            <h3 style="margin-top: 20px; color: var(--primary-maroon);">Check Out Detailed 2BHK & 3BHK Floor Plans In
+                Arihant City</h3>
             <button class="btn price-btn" aria-label="Download full price list">Download Full Price List</button>
         </section>
 
@@ -685,41 +760,101 @@ function get_val($key, $fallback = '') {
             <div class="container text-center">
                 <h2 class="section-title">Aapko Arihant City Kyun Select Karna Chahiye?</h2>
                 <div style="text-align: justify; max-width: 900px; margin: 0 auto; margin-bottom: 30px;">
-                    <p>Yadi aap Kalyan aur Bhiwandi ke behtareen prime ilake mein ek aadarsh ashiyana talash rahe hain, toh <strong>Arihant City</strong> aapke sapno ko poora karne ka sahi sthan hai. Ek aisi world-class township jahan aadhunik suvidhayein aur prakriti dono ek hi jagah milti hain. Apne shandaar architecture aur highway connectivity ki wajah se yeh project logo ki pehli pasand ban chuka hai.</p>
-                    <p style="margin-top: 15px;">Puri tarah se MahaRERA approved hone ke karan yahan aapka investment bilkul surakshit hai. Is premium township mein bane 1BHK, 2BHK aur 3BHK apartments aapko ek ultra-luxury lifestyle dete hain. Arihant Group ke bharose ke saath yahan rehna ek royal experience hai.</p>
+                    <p>Yadi aap Kalyan aur Bhiwandi ke behtareen prime ilake mein ek aadarsh ashiyana talash rahe hain,
+                        toh <strong>Arihant City</strong> aapke sapno ko poora karne ka sahi sthan hai. Ek aisi
+                        world-class township jahan aadhunik suvidhayein aur prakriti dono ek hi jagah milti hain. Apne
+                        shandaar architecture aur highway connectivity ki wajah se yeh project logo ki pehli pasand ban
+                        chuka hai.</p>
+                    <p style="margin-top: 15px;">Puri tarah se MahaRERA approved hone ke karan yahan aapka investment
+                        bilkul surakshit hai. Is premium township mein bane 1BHK, 2BHK aur 3BHK apartments aapko ek
+                        ultra-luxury lifestyle dete hain. Arihant Group ke bharose ke saath yahan rehna ek royal
+                        experience hai.</p>
                 </div>
-                <img src="<?= get_val('story_img', 'images/story_img_1776905960.webp') ?>" alt="Arihant City Kalyan Bhiwandi Legacy and Developer Story" style="max-width: 700px; margin: 0 auto; border: 5px solid #fff;" loading="lazy" width="700" height="400">
+                <img src="<?= get_val('story_img', 'images/story_img_1776905960.webp') ?>"
+                    alt="Arihant City Kalyan Bhiwandi Legacy and Developer Story"
+                    style="max-width: 700px; margin: 0 auto; border: 5px solid #fff;" loading="lazy" width="700"
+                    height="400">
             </div>
         </section>
 
         <section id="amenities" class="section-padding container text-center">
             <h2 class="section-title">Exclusive Premium Amenities</h2>
-            <p class="section-subtitle">Apne aur apne parivaar ke liye world-class luxury suvidhaon ka anubhav karein.</p>
+            <p class="section-subtitle">Apne aur apne parivaar ke liye world-class luxury suvidhaon ka anubhav karein.
+            </p>
             <div class="grid-4x3">
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏊</span><h3 style="font-size:1rem;margin-top:10px;">Swimming Pool</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏋️</span><h3 style="font-size:1rem;margin-top:10px;">Gymnasium</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🌳</span><h3 style="font-size:1rem;margin-top:10px;">Landscaped Gardens</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🛡️</span><h3 style="font-size:1rem;margin-top:10px;">24/7 Security</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🅿️</span><h3 style="font-size:1rem;margin-top:10px;">Ample Parking</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏫</span><h3 style="font-size:1rem;margin-top:10px;">School Nearby</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏥</span><h3 style="font-size:1rem;margin-top:10px;">Hospital Proximity</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🛒</span><h3 style="font-size:1rem;margin-top:10px;">Shopping Complex</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🎮</span><h3 style="font-size:1rem;margin-top:10px;">Kids Play Area</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">⛳</span><h3 style="font-size:1rem;margin-top:10px;">Clubhouse</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🔌</span><h3 style="font-size:1rem;margin-top:10px;">Power Backup</h3></div>
-                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">💧</span><h3 style="font-size:1rem;margin-top:10px;">Water Supply 24/7</h3></div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏊</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Swimming Pool</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏋️</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Gymnasium</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🌳</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Landscaped Gardens</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🛡️</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">24/7 Security</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🅿️</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Ample Parking</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏫</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">School Nearby</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🏥</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Hospital Proximity</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🛒</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Shopping Complex</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🎮</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Kids Play Area</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">⛳</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Clubhouse</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">🔌</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Power Backup</h3>
+                </div>
+                <div class="card" style="padding:15px 5px;"><span style="font-size: 2rem;">💧</span>
+                    <h3 style="font-size:1rem;margin-top:10px;">Water Supply 24/7</h3>
+                </div>
             </div>
         </section>
 
         <section id="connectivity" class="section-padding" style="background-color: var(--light-maroon);">
             <div class="container text-center">
                 <h2 class="section-title">Prime Location & Unmatched Connectivity</h2>
-                <p class="section-subtitle">School, hospital, mall aur highway—sab kuch aapke naye ghar ke bilkul kareeb.</p>
+                <p class="section-subtitle">School, hospital, mall aur highway—sab kuch aapke naye ghar ke bilkul
+                    kareeb.</p>
                 <div class="conn-grid">
-                    <div class="conn-col"><h4>Transport</h4><ul><li>Metro Line 5 - 0.2 km</li><li>Kalyan Station - 8.4 km</li></ul></div>
-                    <div class="conn-col"><h4>Education</h4><ul><li>Swayam Siddhi College</li><li>Holy Cross School</li></ul></div>
-                    <div class="conn-col"><h4>Lifestyle</h4><ul><li>McDonald's - 1.2 km</li><li>Dmart - 2.5 km</li></ul></div>
-                    <div class="conn-col"><h4>Healthcare</h4><ul><li>Life Care Hospital</li><li>Fortis Hospital</li></ul></div>
+                    <div class="conn-col">
+                        <h4>Transport</h4>
+                        <ul>
+                            <li>Metro Line 5 - 0.2 km</li>
+                            <li>Kalyan Station - 8.4 km</li>
+                        </ul>
+                    </div>
+                    <div class="conn-col">
+                        <h4>Education</h4>
+                        <ul>
+                            <li>Swayam Siddhi College</li>
+                            <li>Holy Cross School</li>
+                        </ul>
+                    </div>
+                    <div class="conn-col">
+                        <h4>Lifestyle</h4>
+                        <ul>
+                            <li>McDonald's - 1.2 km</li>
+                            <li>Dmart - 2.5 km</li>
+                        </ul>
+                    </div>
+                    <div class="conn-col">
+                        <h4>Healthcare</h4>
+                        <ul>
+                            <li>Life Care Hospital</li>
+                            <li>Fortis Hospital</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -727,43 +862,68 @@ function get_val($key, $fallback = '') {
         <section id="plans" class="section-padding container text-center">
             <h2 class="section-title"><?= get_val('fp_title', 'MASTER PLANS') ?></h2>
             <div class="grid-2x2">
-                <img src="<?= get_val('fp1_img', 'images/fp1_img_1776490386.webp') ?>" alt="1 BHK & 2 BHK Floor Plan of Arihant City Kalyan Bhiwandi" style="border: 1px solid #ddd;" loading="lazy">
-                <img src="<?= get_val('fp2_img', 'images/fp2_img_1776490386.webp') ?>" alt="3 BHK & 4 BHK Floor Plan of Arihant City Kalyan Bhiwandi" style="border: 1px solid #ddd;" loading="lazy">
+                <img src="<?= get_val('fp1_img', 'images/fp1_img_1776490386.webp') ?>"
+                    alt="1 BHK & 2 BHK Floor Plan of Arihant City Kalyan Bhiwandi" style="border: 1px solid #ddd;"
+                    loading="lazy">
+                <img src="<?= get_val('fp2_img', 'images/fp2_img_1776490386.webp') ?>"
+                    alt="3 BHK & 4 BHK Floor Plan of Arihant City Kalyan Bhiwandi" style="border: 1px solid #ddd;"
+                    loading="lazy">
             </div>
         </section>
 
         <section id="gallery" class="section-padding container text-center">
             <h2 class="section-title"><?= get_val('gal_title', 'PROJECT GALLERY') ?></h2>
-            <p class="section-subtitle"><?= get_val('gal_desc', 'A glimpse into the premium lifestyle at Arihant City.') ?></p>
+            <p class="section-subtitle">
+                <?= get_val('gal_desc', 'A glimpse into the premium lifestyle at Arihant City.') ?></p>
             <div class="grid-2x2">
-                <img src="<?= get_val('gal1_img', 'images/gal1_img_1777043382.webp') ?>" alt="Arihant City Kalyan Bhiwandi Project Actual Site Image" style="border: 1px solid #ddd; border-radius: 8px;" loading="lazy">
-                <img src="<?= get_val('gal2_img', 'images/gal2_img_1777043382.webp') ?>" alt="Arihant City Kalyan Bhiwandi Sample Flat Interior" style="border: 1px solid #ddd; border-radius: 8px;" loading="lazy">
+                <img src="<?= get_val('gal1_img', 'images/gal1_img_1777043382.webp') ?>"
+                    alt="Arihant City Kalyan Bhiwandi Project Actual Site Image"
+                    style="border: 1px solid #ddd; border-radius: 8px;" loading="lazy">
+                <img src="<?= get_val('gal2_img', 'images/gal2_img_1777043382.webp') ?>"
+                    alt="Arihant City Kalyan Bhiwandi Sample Flat Interior"
+                    style="border: 1px solid #ddd; border-radius: 8px;" loading="lazy">
             </div>
         </section>
 
         <section id="blogs" class="section-padding container">
             <h2 class="section-title text-center">LATEST INSIGHTS & REAL ESTATE BLOGS</h2>
-            <p class="section-subtitle text-center">Bhiwandi-Thane property market aur Arihant City ke baare mein expert guidance aur latest updates.</p>
+            <p class="section-subtitle text-center">Bhiwandi-Thane property market aur Arihant City ke baare mein expert
+                guidance aur latest updates.</p>
             <div class="grid-2x2">
                 <div class="card" style="text-align: left; padding: 20px;">
                     <h3 style="color: var(--primary-green); margin-bottom: 10px;">Bhiwandi Mein 1 BHK Luxury Living</h3>
-                    <p style="font-size: 0.9rem; color: #555;">Jaaniye kyun first-time homebuyers aur young professionals ke liye Arihant City sabse best option hai...</p>
-                    <a href="blog/1bhk-flats-in-thane.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                    <p style="font-size: 0.9rem; color: #555;">Jaaniye kyun first-time homebuyers aur young
+                        professionals ke liye Arihant City sabse best option hai...</p>
+                    <a href="blog/1bhk-flats-in-thane.html"
+                        style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read
+                        More &rarr;</a>
                 </div>
                 <div class="card" style="text-align: left; padding: 20px;">
-                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Kalyan-Bhiwandi Bypass Ka Development</h3>
-                    <p style="font-size: 0.9rem; color: #555;">Bypass ke teji se ho rahe vikas se Arihant City kaise sabse prime residential hub ban chuka hai...</p>
-                    <a href="blog/residential-projects-in-thane.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Kalyan-Bhiwandi Bypass Ka Development
+                    </h3>
+                    <p style="font-size: 0.9rem; color: #555;">Bypass ke teji se ho rahe vikas se Arihant City kaise
+                        sabse prime residential hub ban chuka hai...</p>
+                    <a href="blog/residential-projects-in-thane.html"
+                        style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read
+                        More &rarr;</a>
                 </div>
                 <div class="card" style="text-align: left; padding: 20px;">
-                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Thane District Mein Affordable Premium Flats</h3>
-                    <p style="font-size: 0.9rem; color: #555;">Bina budget exceed kiye, Arihant City mein aapko milti hain top-class luxury suvidhayein...</p>
-                    <a href="blog/affordable-flats-in-thane.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Thane District Mein Affordable Premium
+                        Flats</h3>
+                    <p style="font-size: 0.9rem; color: #555;">Bina budget exceed kiye, Arihant City mein aapko milti
+                        hain top-class luxury suvidhayein...</p>
+                    <a href="blog/affordable-flats-in-thane.html"
+                        style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read
+                        More &rarr;</a>
                 </div>
                 <div class="card" style="text-align: left; padding: 20px;">
-                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Bhiwandi Real Estate Investment Guide</h3>
-                    <p style="font-size: 0.9rem; color: #555;">Real estate experts kyun mante hain ki Arihant City mein nivesh karna aapke bhavishya ko secure karega...</p>
-                    <a href="blog/future-of-bhiwandi-real-estate.html" style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read More &rarr;</a>
+                    <h3 style="color: var(--primary-green); margin-bottom: 10px;">Bhiwandi Real Estate Investment Guide
+                    </h3>
+                    <p style="font-size: 0.9rem; color: #555;">Real estate experts kyun mante hain ki Arihant City mein
+                        nivesh karna aapke bhavishya ko secure karega...</p>
+                    <a href="blog/future-of-bhiwandi-real-estate.html"
+                        style="color: var(--primary-green); font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Read
+                        More &rarr;</a>
                 </div>
             </div>
             <div class="text-center" style="margin-top: 30px;">
@@ -780,24 +940,35 @@ function get_val($key, $fallback = '') {
                         <meta itemprop="name" content="Arihant City">
                     </div>
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p itemprop="reviewBody">"Arihant City ne hamara sapna poora kiya. Yahan ka vatavaran, club house aur Kalyan station se nazdiki hamari family ko bahut pasand aayi. Yeh sach me best township hai!"</p>
-                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person" style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Rahul Sharma</span></h4>
+                    <p itemprop="reviewBody">"Arihant City ne hamara sapna poora kiya. Yahan ka vatavaran, club house
+                        aur Kalyan station se nazdiki hamari family ko bahut pasand aayi. Yeh sach me best township
+                        hai!"</p>
+                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person"
+                        style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Rahul Sharma</span>
+                    </h4>
                 </div>
                 <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
                     <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/ApartmentComplex">
                         <meta itemprop="name" content="Arihant City">
                     </div>
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p itemprop="reviewBody">"Maine yahan 2BHK flat liya hai aur main construction quality se bahut satisfy hu. Is price point par itni achi suvidhayein milna mushkil hai. Highly recommended."</p>
-                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person" style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Priya Desai</span></h4>
+                    <p itemprop="reviewBody">"Maine yahan 2BHK flat liya hai aur main construction quality se bahut
+                        satisfy hu. Is price point par itni achi suvidhayein milna mushkil hai. Highly recommended."</p>
+                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person"
+                        style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Priya Desai</span>
+                    </h4>
                 </div>
                 <div class="testimonial-card" itemscope itemtype="https://schema.org/Review">
                     <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/ApartmentComplex">
                         <meta itemprop="name" content="Arihant City">
                     </div>
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p itemprop="reviewBody">"Bhiwandi mein bahut saare projects dekhe, par MahaRERA registered hone ke karan humein yahan bharosa hua. Yahan ka staff bahut helpful aur booking process bilkul smooth tha."</p>
-                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person" style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Amit Singh</span></h4>
+                    <p itemprop="reviewBody">"Bhiwandi mein bahut saare projects dekhe, par MahaRERA registered hone ke
+                        karan humein yahan bharosa hua. Yahan ka staff bahut helpful aur booking process bilkul smooth
+                        tha."</p>
+                    <h4 itemprop="author" itemscope itemtype="https://schema.org/Person"
+                        style="margin-top:10px;color:var(--primary-maroon);"><span itemprop="name">- Amit Singh</span>
+                    </h4>
                 </div>
             </div>
         </section>
@@ -807,51 +978,65 @@ function get_val($key, $fallback = '') {
             <h2 class="section-title">Arihant City Ke Baare Mein Aksar Puche Jane Wale Sawal (FAQ)</h2>
             <div class="faq-accordion">
                 <div class="faq-item">
-                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                    <div class="faq-q"
+                        onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
                         <span>Arihant City ka exact location kya hai?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Arihant City prime Kalyan Bypass, Bhiwandi par sthit hai, jahan se highways aur public transport bahut kareeb hain.</div>
+                    <div class="faq-a">Arihant City prime Kalyan Bypass, Bhiwandi par sthit hai, jahan se highways aur
+                        public transport bahut kareeb hain.</div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                    <div class="faq-q"
+                        onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
                         <span>Arihant City mein flats ki shuruati keemat kya hai?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Yahan 1BHK flats ki starting price ₹35 Lakh se shuru hoti hai. Prices flat ke size aur phase ke anusaar alag ho sakte hain.</div>
+                    <div class="faq-a">Yahan 1BHK flats ki starting price ₹35 Lakh se shuru hoti hai. Prices flat ke
+                        size aur phase ke anusaar alag ho sakte hain.</div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                    <div class="faq-q"
+                        onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
                         <span>Is township mein kya-kya suvidhayein milti hain?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Aapko yahan swimming pool, modern gym, bada clubhouse, garden, bachho ke khelne ki jagah aur 24x7 security jaisi sabhi premium amenities milengi.</div>
+                    <div class="faq-a">Aapko yahan swimming pool, modern gym, bada clubhouse, garden, bachho ke khelne
+                        ki jagah aur 24x7 security jaisi sabhi premium amenities milengi.</div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                    <div class="faq-q"
+                        onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
                         <span>Kya yeh project MahaRERA certified hai?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Haan, yeh project poori tarah MahaRERA registered hai jisse aapka nivesh (investment) bilkul surakshit rehta hai.</div>
+                    <div class="faq-a">Haan, yeh project poori tarah MahaRERA registered hai jisse aapka nivesh
+                        (investment) bilkul surakshit rehta hai.</div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-q" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+                    <div class="faq-q"
+                        onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
                         <span>Flat ki booking ka kya process hai?</span>
                         <span>▼</span>
                     </div>
-                    <div class="faq-a">Booking ke liye aap is website par maujood form bhar sakte hain ya hamare sales office par direct visit kar sakte hain.</div>
+                    <div class="faq-a">Booking ke liye aap is website par maujood form bhar sakte hain ya hamare sales
+                        office par direct visit kar sakte hain.</div>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="contact-section">
             <div class="map-container">
-                <iframe src="<?= get_val('google_map', 'https://www.google.com/maps/embed?pb=...') ?>" loading="lazy" aria-label="Arihant City Location Map"></iframe>
+                <iframe src="<?= get_val('google_map', 'https://www.google.com/maps/embed?pb=...') ?>" loading="lazy"
+                    aria-label="Arihant City Location Map"></iframe>
             </div>
             <div class="form-container">
                 <h2 class="section-title">Apna Dream Flat Aaj Hi Book Karein</h2>
-                <p>Exclusive deals aur special offers paane ke liye abhi register karein.<br><br><span style="font-size:0.85rem; font-weight:bold; color:var(--primary-maroon);">MahaRERA Approved Project | Transparent & Secure Buying</span></p>
-                <form action="contact.php" method="POST" id="contact-form" name="contactForm" aria-label="Arihant City Booking Form">
+                <p>Exclusive deals aur special offers paane ke liye abhi register karein.<br><br><span
+                        style="font-size:0.85rem; font-weight:bold; color:var(--primary-maroon);">MahaRERA Approved
+                        Project | Transparent & Secure Buying</span></p>
+                <form action="/contact" method="POST" id="contact-form" name="contactForm"
+                    aria-label="Arihant City Booking Form">
                     <input type="text" name="name" placeholder="Full Name" aria-label="Full Name" required>
                     <input type="tel" name="phone" placeholder="Mobile Number" aria-label="Mobile Number" required>
                     <select name="config" aria-label="Interested Configuration">
@@ -860,7 +1045,8 @@ function get_val($key, $fallback = '') {
                         <option value="3BHK">3 BHK</option>
                         <option value="4BHK">4 BHK</option>
                     </select>
-                    <button type="submit" class="btn" style="width: 100%;" aria-label="Submit Enquiry for Arihant City">Submit Enquiry</button>
+                    <button type="submit" class="btn" style="width: 100%;"
+                        aria-label="Submit Enquiry for Arihant City">Submit Enquiry</button>
                 </form>
             </div>
         </section>
@@ -869,15 +1055,19 @@ function get_val($key, $fallback = '') {
     <footer>
         <div class="container">
             <div style="margin-bottom: 20px;">
-                <a href="index.php" style="color: #fff; text-decoration: none; margin: 0 10px;">Home</a> |
+                <a href="/" style="color: #fff; text-decoration: none; margin: 0 10px;">Home</a> |
                 <a href="blog/index.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Blogs</a> |
                 <a href="disclaimer.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Disclaimer</a> |
-                <a href="privacy-policy.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Privacy Policy</a> |
-                <a href="terms-and-conditions.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Terms & Conditions</a>
+                <a href="privacy-policy.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Privacy
+                    Policy</a> |
+                <a href="terms-and-conditions.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Terms &
+                    Conditions</a>
             </div>
             <p>© 2026 Arihant City Kalyan Bhiwandi. All Rights Reserved.</p>
             <p style="margin-top: 10px; font-size: 0.75rem; opacity: 0.8;">
-                <a href="https://maharerait.mahaonline.gov.in" target="_blank" rel="noopener" style="color:#fff; text-decoration:underline;">MahaRERA Registration No</a>: Phase-I: P51700010884, D3 Tower: P51700022743, Phase-II: P51700028429, P51700028441, P51700044483, P51700010350. <br>
+                <a href="https://maharerait.mahaonline.gov.in" target="_blank" rel="noopener"
+                    style="color:#fff; text-decoration:underline;">MahaRERA Registration No</a>: Phase-I: P51700010884,
+                D3 Tower: P51700022743, Phase-II: P51700028429, P51700028441, P51700044483, P51700010350. <br>
                 Disclaimer: All images and plans are artist's impressions. Please refer to RERA for accurate details.
             </p>
         </div>
@@ -892,9 +1082,10 @@ function get_val($key, $fallback = '') {
                 <p>Register for exclusive offers & pricing</p>
             </div>
             <div class="modal-body">
-                <form action="contact.php" method="POST" aria-label="Arihant City Price Request Form">
+                <form action="/contact" method="POST" aria-label="Arihant City Price Request Form">
                     <input type="text" name="name" placeholder="Your Full Name" aria-label="Your Full Name" required>
-                    <input type="tel" name="phone" placeholder="Your Mobile Number" aria-label="Your Mobile Number" required>
+                    <input type="tel" name="phone" placeholder="Your Mobile Number" aria-label="Your Mobile Number"
+                        required>
                     <select name="config" aria-label="Select Configuration">
                         <option value="" disabled selected>Select Configuration</option>
                         <option value="1BHK">1 BHK Luxury</option>
@@ -902,7 +1093,8 @@ function get_val($key, $fallback = '') {
                         <option value="3BHK">3 BHK Platinum</option>
                         <option value="4BHK">4 BHK Premium</option>
                     </select>
-                    <button type="submit" class="modal-submit-btn" aria-label="Unlock Price Details for Arihant City">Unlock Price Details</button>
+                    <button type="submit" class="modal-submit-btn"
+                        aria-label="Unlock Price Details for Arihant City">Unlock Price Details</button>
                 </form>
             </div>
         </div>
@@ -946,4 +1138,5 @@ function get_val($key, $fallback = '') {
         });
     </script>
 </body>
+
 </html>
